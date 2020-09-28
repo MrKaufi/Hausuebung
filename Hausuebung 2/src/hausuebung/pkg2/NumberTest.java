@@ -10,5 +10,5 @@ package hausuebung.pkg2;
  * @author flori
  */
 public interface NumberTest {
-    
+    boolean testNumber(int Number);
 }
