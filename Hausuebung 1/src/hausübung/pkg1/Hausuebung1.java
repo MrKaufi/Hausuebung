@@ -9,7 +9,7 @@ package hausübung.pkg1;
  *
  * @author Florian
  */
-public class Hausübung1 {
+public class Hausuebung1 {
 
     /**
      * @param args the command line arguments
