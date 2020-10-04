@@ -15,13 +15,16 @@ import java.util.List;
 public class HalloJavamitForEach {
     
     public static void main(String[] args) {
+        NumberTester nt = new NumberTester("Hausuebung2 zahlen.txt");
         List<String> list = new ArrayList<String>();
-
+        
         list.add("Hello");
         list.add("There");
         list.add("OooOOooOOoo");
         list.add("OooOOoOOoo");
         list.add("OooOOooOOooooo");
         list.forEach((String s) -> System.out.println(s));
+        
+        nt.testFile();
     }   
 }

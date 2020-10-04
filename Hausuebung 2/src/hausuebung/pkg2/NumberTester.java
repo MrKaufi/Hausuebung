@@ -45,13 +45,17 @@ public class NumberTester {
     }
     
     public void testFile(){
-        String left;
-        String right;
+        int left;
+        int right;
         try {
             String line = reader.readLine();
             while(reader.ready()){
                 line = reader.readLine();
-            };
+                String[] ar = line.split(" ");
+                left = ar[0];
+                right = ar[1];
+                System.out.println(left + " " + right);
+            }
         } catch (IOException ex) {
             Logger.getLogger(NumberTester.class.getName()).log(Level.SEVERE, null, ex);
         }
