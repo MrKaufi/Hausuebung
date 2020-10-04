@@ -15,8 +15,8 @@ public class Hausuebung1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        EratosthenesPrimeSieve esp = new EratosthenesPrimeSieve(50);
-        esp.algorythm(50);
+        EratosthenesPrimeSieve esp = new EratosthenesPrimeSieve(75);
+        esp.algorythm(75);
     }
     
 }
