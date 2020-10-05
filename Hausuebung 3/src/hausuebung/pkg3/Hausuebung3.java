@@ -29,6 +29,7 @@ public class Hausuebung3 {
         }
         
         List<Weapon> list = new LinkedList<>();
+        
         list.sort((w1, w2) -> Integer.compare(w1.getDamage(), w2.getDamage()));
         for (int i = 0; i < list.size(); i++) {
             list.get(i).toString();
