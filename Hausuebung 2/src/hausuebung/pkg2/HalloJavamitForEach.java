@@ -46,15 +46,31 @@ public class HalloJavamitForEach {
             return new Number(x.getA() - y.getA(), x.getB() - y.getB());
         };
         CalculationOperation vCmult = (x, y) -> {
-            return new Number((x.getA() * y.getA()) + (x.getB() * y.getB()) ,1);
+            return new Number((x.getA() * y.getA()) + (x.getB() * y.getB()), 1);
         };
         CalculationOperation vCdiv = (x, y) -> {
-            return null; 
+            return null;
+        };
+
+        
+        
+        CalculationOperation xCadd = (x, y) -> {
+            return new Number(x.getA() + y.getA(), x.getB() + y.getB());
+        };
+        CalculationOperation xCsub = (x, y) -> {
+            return new Number(x.getA() - y.getA(), x.getB() - y.getB());
+        };
+        CalculationOperation xCmult = (x, y) -> {
+            return new Number((x.getA() * y.getA()) - (x.getB() * y.getB()), (x.getA() * y.getB() + (x.getB() * y.getA())));
+        };
+        CalculationOperation xCdiv = (x, y) -> {
+            return new Number((x.getA() / y.getA()) - (x.getB() / y.getB()), (x.getA() / y.getB()) + (x.getB() / y.getA()));
         };
 
         RationalCalculator rC = new RationalCalculator(rCadd, rCsub, rCmult, rCdiv);
         VectorCalculator vC = new VectorCalculator(vCadd, vCsub, vCmult, vCdiv);
-        //ComplexCalculator cC = new ComplexCalculator(rCadd, subtract, multiply, divide);
+        ComplexCalculator xC = new ComplexCalculator(xCadd, xCsub, xCmult, xCdiv);
+
         System.out.println("Rationaleberechnungen: ");
         System.out.println(rC.add(a, b).getA());
         System.out.println(rC.add(a, b).getB());
@@ -67,9 +83,9 @@ public class HalloJavamitForEach {
         System.out.println("");
         System.out.println(rC.divide(a, b).getA());
         System.out.println(rC.divide(a, b).getB());
-        
+
         System.out.println("Vektorberechnungen: ");
-        
+
         System.out.println(vC.add(a, b).getA());
         System.out.println(vC.add(a, b).getB());
         System.out.println("");
@@ -81,8 +97,21 @@ public class HalloJavamitForEach {
         System.out.println("");
         //System.out.println(vC.divide(a, b).getA());
         //System.out.println(vC.divide(a, b).getB());
-        
+
         System.out.println("Komplexeberechnungen: ");
+        
+        System.out.println(xC.add(a, b).getA());
+        System.out.println(xC.add(a, b).getB());
+        System.out.println("");
+        System.out.println(xC.subtract(a, b).getA());
+        System.out.println(xC.subtract(a, b).getB());
+        System.out.println("");
+        System.out.println(xC.multiply(a, b).getA());
+        System.out.println(xC.multiply(a, b).getB());
+        System.out.println("");
+        System.out.println(xC.divide(a, b).getA());
+        System.out.println(xC.divide(a, b).getB());
+
         NumberTester nt = new NumberTester("Hausuebung2 zahlen.txt");
         nt.testFile();
 
