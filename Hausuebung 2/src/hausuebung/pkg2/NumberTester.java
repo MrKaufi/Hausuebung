@@ -65,18 +65,14 @@ public class NumberTester {
             return true;
         };
         NumberTest isPalindrome = (n) -> {
-            int palindrome = n;
-            int reverse = 0;
-            
-            while(palindrome != 0) {
-                int remainder = palindrome % 10;
-                reverse = reverse * 10 + remainder;
-                palindrome = palindrome /10;
-            }
-            if (n == reverse) {
+            String sN = Integer.toString(n);
+            StringBuilder sb = new StringBuilder(sN);
+
+            if (sN.equals(sb.reverse().toString())) {
                 return true;
+            } else {
+                return false;
             }
-            else return false;
         };
         int left;
         int right;
@@ -96,6 +92,7 @@ public class NumberTester {
                         } else {
                             System.out.println("EVEN");
                         }
+                        break;
 
                     case 2:
                         setPrimeTest(isPrime);
@@ -104,14 +101,16 @@ public class NumberTester {
                         } else {
                             System.out.println("NO PRIME");
                         }
-                    /*
+                        break;
+
                     case 3:
-                        setPrimeTest(isPalindrome);
+                        setPalindromeTester(isPalindrome);
                         if (palindromeTester.testNumber(right)) {
                             System.out.println("PALINDROME");
+                        } else {
+                            System.out.println("NO PALINDROME");
                         }
-                        else System.out.println("NO PALINDROME");
-                     */
+                        break;
 
                 }
 
