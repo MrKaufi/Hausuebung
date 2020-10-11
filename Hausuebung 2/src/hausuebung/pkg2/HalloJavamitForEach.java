@@ -15,6 +15,10 @@ import java.util.List;
 public class HalloJavamitForEach {
     
     public static void main(String[] args) {
+        CalculationOperation rCadd = (y,x) -> (y+x);
+        RationalCalculator rC = new RationalCalculator(add, subtract, multiply, divide);
+        VectorCalculator vC = new VectorCalculator(add, subtract, multiply, divide);
+        ComplexCalculator cC = new ComplexCalculator(add, subtract, multiply, divide);
         NumberTester nt = new NumberTester("Hausuebung2 zahlen.txt");
         
         nt.testFile();
