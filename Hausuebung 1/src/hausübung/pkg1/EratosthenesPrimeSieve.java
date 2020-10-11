@@ -43,7 +43,6 @@ public class EratosthenesPrimeSieve implements PrimeSieve {
             if (i % 2 == 0 && i > 2) {
                 for (int j = 2; j < i; j++) {
                     if (isPrime(j)) {
-                        
                         for (int k = 2; k < i; k++) {
                             if (isPrime(k) && k + j == i) {
                                 a = j;
@@ -52,7 +51,7 @@ public class EratosthenesPrimeSieve implements PrimeSieve {
                         }
                     }
                 }
-                            System.out.println(i + "=" + a + "+" + b);
+                System.out.println(i + "=" + a + "+" + b);
             }
 
         }
