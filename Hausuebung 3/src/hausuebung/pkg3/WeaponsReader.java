@@ -5,33 +5,39 @@
  */
 package hausuebung.pkg3;
 
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 /**
  *
  * @author flori
  */
 public class WeaponsReader {
-
-    String[] weaponsString;
     List<Weapon> weapons = new ArrayList<Weapon>();
+    
+    public void readCsv(){
+    try (BufferedReader br = new BufferedReader(new FileReader(new File("weapons.csv")))) {
 
-    public void readCsv() throws FileNotFoundException, IOException {
-        Scanner sc = new Scanner("weapons.csv");
-        sc.nextLine();
-        while (sc.hasNext()) {
-            weaponsString = sc.next().split(";");
-            weapons.add(new Weapon(weaponsString[0],
-                    CombatType.valueOf(weaponsString[1]),
-                    DamageType.valueOf(weaponsString[2]),
-                    Integer.parseInt(weaponsString[3]),
-                    Integer.parseInt(weaponsString[4]),
-                    Integer.parseInt(weaponsString[5]),
-                    Integer.parseInt(weaponsString[6])));
+            br.readLine();
+            String zeile = br.readLine();
+            String[] tmp;
+            while (null != zeile) {
+                tmp = zeile.split(";");
+                zeile = br.readLine();
+                Weapon w = new Weapon(tmp[0], CombatType.valueOf(tmp[1]), DamageType.valueOf(tmp[2]),Integer.valueOf(tmp[3]),Integer.valueOf(tmp[4]), Integer.valueOf(tmp[5]), Integer.valueOf(tmp[6]));
+                weapons.add(w);
+            }
+
+        } catch (Exception e) {
+            System.out.println(e);
         }
+        return;
+    }
+
+    public List<Weapon> getWeapons() {
+        return weapons;
     }
 }

@@ -5,11 +5,7 @@
  */
 package hausuebung.pkg3;
 
-import java.io.IOException;
-import java.util.LinkedList;
 import java.util.List;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
  *
@@ -22,18 +18,43 @@ public class Hausuebung3 {
      */
     public static void main(String[] args) {
         WeaponsReader wr = new WeaponsReader();
-        try {
-            wr.readCsv();
-        } catch (IOException ex) {
-            Logger.getLogger(Hausuebung3.class.getName()).log(Level.SEVERE, null, ex);
-        }
+        wr.readCsv();
+
+        List<Weapon> list = wr.getWeapons();
+
+        list.sort((Weapon w1, Weapon w2) -> Integer.compare(w1.getDamage(), w2.getDamage()));
         
-        List<Weapon> list = new LinkedList<>();
+        list.sort((Weapon w1, Weapon w2) -> w1.getcT().toString().compareTo(w2.getcT().toString()));
+        list.sort((Weapon w1, Weapon w2) -> w1.getdT().toString().compareTo(w2.getdT().toString()));
+        list.sort((Weapon w1, Weapon w2) -> w1.getName().toString().compareTo(w2.getName().toString()));
         
-        list.sort((w1, w2) -> Integer.compare(w1.getDamage(), w2.getDamage()));
+        /*list.sort((Weapon w1, Weapon w2) -> {
+            int offset = 0;
+            for (int i = 0; i < list.size(); i++) {
+                offset = Integer.compare(w1.getdT().toString().hashCode(), w2.getcT().toString().hashCode());
+                if (offset < 0) {
+                    
+                }
+            }
+            for (int i = 0; i < list.size(); i++) {
+                Integer.compare(w1.getdT().toString().hashCode(), w2.getdT().toString().hashCode());
+            }
+            for (int i = 0; i < list.size(); i++) {
+                Integer.compare(w1.getName().toString().hashCode(), w2.getName().toString().hashCode());
+            }
+            
+            return null;
+        });
+        */
         for (int i = 0; i < list.size(); i++) {
-            System.out.println(list.get(i));
+            System.out.print(list.get(i).getName() + ";");
+            System.out.print(list.get(i).getcT()+ ";");
+            System.out.print(list.get(i).getdT()+ ";");
+            System.out.print(list.get(i).getDamage()+ ";");
+            System.out.print(list.get(i).getSpeed()+ ";");
+            System.out.print(list.get(i).getStrength()+ ";");
+            System.out.println(list.get(i).getValue());
         }
     }
-    
+
 }
