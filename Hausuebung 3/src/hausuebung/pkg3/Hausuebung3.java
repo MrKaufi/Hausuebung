@@ -23,11 +23,11 @@ public class Hausuebung3 {
         List<Weapon> list = wr.getWeapons();
 
         list.sort((Weapon w1, Weapon w2) -> Integer.compare(w1.getDamage(), w2.getDamage()));
-        
+
         list.sort((Weapon w1, Weapon w2) -> w1.getcT().toString().compareTo(w2.getcT().toString()));
-        list.sort((Weapon w1, Weapon w2) -> w1.getdT().toString().compareTo(w2.getdT().toString()));
-        list.sort((Weapon w1, Weapon w2) -> w1.getName().toString().compareTo(w2.getName().toString()));
-        
+        //list.sort((Weapon w1, Weapon w2) -> w1.getdT().toString().compareTo(w2.getdT().toString()));
+        //list.sort((Weapon w1, Weapon w2) -> w1.getName().toString().compareTo(w2.getName().toString()));
+
         /*list.sort((Weapon w1, Weapon w2) -> {
             int offset = 0;
             for (int i = 0; i < list.size(); i++) {
@@ -45,16 +45,19 @@ public class Hausuebung3 {
             
             return null;
         });
-        */
-        for (int i = 0; i < list.size(); i++) {
-            System.out.print(list.get(i).getName() + ";");
-            System.out.print(list.get(i).getcT()+ ";");
-            System.out.print(list.get(i).getdT()+ ";");
-            System.out.print(list.get(i).getDamage()+ ";");
-            System.out.print(list.get(i).getSpeed()+ ";");
-            System.out.print(list.get(i).getStrength()+ ";");
-            System.out.println(list.get(i).getValue());
-        }
+         */
+        Printable print = (weapons) -> {
+            for (int i = 0; i < list.size(); i++) {
+                System.out.print(weapons.get(i).getName() + ";");
+                System.out.print(weapons.get(i).getcT() + ";");
+                System.out.print(weapons.get(i).getdT() + ";");
+                System.out.print(weapons.get(i).getDamage() + ";");
+                System.out.print(weapons.get(i).getSpeed() + ";");
+                System.out.print(weapons.get(i).getStrength() + ";");
+                System.out.println(weapons.get(i).getValue());
+            }
+        };
+        print.print(list);
     }
 
 }
