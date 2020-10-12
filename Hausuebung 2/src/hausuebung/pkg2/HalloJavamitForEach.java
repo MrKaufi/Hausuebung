@@ -12,8 +12,8 @@ package hausuebung.pkg2;
 public class HalloJavamitForEach {
 
     public static void main(String[] args) {
-        Number a = new Number(5, 7);
-        Number b = new Number(4, 5);
+        Number a = new Number(3, 5);
+        Number b = new Number(4, 11);
         
         CalculationOperation rCadd = (x, y) -> {
             double gNenner = x.getB() * y.getB();

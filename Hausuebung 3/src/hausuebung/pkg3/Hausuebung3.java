@@ -5,13 +5,11 @@
  */
 package hausuebung.pkg3;
 
-import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import jdk.jfr.events.FileWriteEvent;
 
 /**
  *
@@ -69,18 +67,17 @@ public class Hausuebung3 {
                 FileWriter fileWriter = new FileWriter("newWeapons.csv");
 
                 for (int i = 0; i < list.size(); i++) {
-                    fileWriter.append(weapons.get(i).getName() + "|");
-                    fileWriter.append(weapons.get(i).getcT().toString()+ "|");
-                    fileWriter.append(weapons.get(i).getdT().toString()+ "|");
-                    fileWriter.append(String.valueOf(weapons.get(i).getDamage())+ "|");
-                    fileWriter.append(String.valueOf(weapons.get(i).getSpeed())+ "|");
-                    fileWriter.append(String.valueOf(weapons.get(i).getStrength())+ "|");
-                    fileWriter.append(String.valueOf(weapons.get(i).getValue())+ "|");
-                    fileWriter.append("+");
+                    fileWriter.append(weapons.get(i).getName());
+                    fileWriter.append(weapons.get(i).getcT().toString());
+                    fileWriter.append(weapons.get(i).getdT().toString());
+                    fileWriter.append(String.valueOf(weapons.get(i).getDamage()));
+                    fileWriter.append(String.valueOf(weapons.get(i).getSpeed()));
+                    fileWriter.append(String.valueOf(weapons.get(i).getStrength()));
+                    fileWriter.append(String.valueOf(weapons.get(i).getValue()));
                 }
                 fileWriter.flush();
                 fileWriter.close();
-                                
+
             } catch (IOException ex) {
                 Logger.getLogger(Hausuebung3.class.getName()).log(Level.SEVERE, null, ex);
             }
