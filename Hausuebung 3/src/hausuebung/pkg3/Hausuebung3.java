@@ -22,10 +22,12 @@ public class Hausuebung3 {
      */
     public static void main(String[] args) {
         WeaponsReader wr = new WeaponsReader();
+        Streams streams = new Streams();
         wr.readCsv();
-
+        
         List<Weapon> list = wr.getWeapons();
-
+        
+        
         list.sort((Weapon w1, Weapon w2) -> Integer.compare(w1.getDamage(), w2.getDamage()));
 
         list.sort((Weapon w1, Weapon w2) -> w1.getcT().toString().compareTo(w2.getcT().toString()));
