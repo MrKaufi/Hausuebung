@@ -52,19 +52,19 @@ public class Weapon {
         this.name = name;
     }
 
-    public CombatType getcT() {
+    public CombatType getCombatType() {
         return cT;
     }
 
-    public void setcT(CombatType cT) {
+    public void setCombatType(CombatType cT) {
         this.cT = cT;
     }
 
-    public DamageType getdT() {
+    public DamageType getDamageType() {
         return dT;
     }
 
-    public void setdT(DamageType dT) {
+    public void setDamageType(DamageType dT) {
         this.dT = dT;
     }
 
@@ -99,5 +99,15 @@ public class Weapon {
     public void setValue(int value) {
         this.value = value;
     }
+    
+    public int getMinStrength(){
+        return strength;
+    }
 
+    @Override
+    public String toString() {
+        return "Weapon{" + "name=" + name + ", cT=" + cT + ", dT=" + dT + ", damage=" + damage + ", speed=" + speed + ", strength=" + strength + ", value=" + value + '}';
+    }
+    
+    
 }
