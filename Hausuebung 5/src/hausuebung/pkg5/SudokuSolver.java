@@ -55,22 +55,48 @@ public class SudokuSolver implements ISudokuSolver {
 
     @Override
     public boolean checkSudoku(int[][] rawSudoku) {
-        boolean erg = false;
+        boolean r = false;
+        boolean c = false;
+        boolean b = false;
         for (int i = 0; i < 9; i++) {
-            for (int j = 0; j < 9; j++) {
-                if () {
-                    
-                }
-                
+            if (!checkRow(sudoku, i)) {
+                r = false;
             }
         }
-        return erg;
+        for (int i = 0; i < 9; i++) {
+            if (!checkColumn(sudoku, i)) {
+                c = false;
+            }
+        }
+        for (int i = 0; i < 9; i++) {
+            for (int j = 0; j < 0; j++) {
+                if (!checkBox(sudoku, i, j)) {
+                    b = false;
+                }
+            }
+
+        }
+        if (r && c && b) {
+            return true;
+        }
+
+        return false;
     }
 
     @Override
     public int[][] solveSudoku(int[][] rawSudoku) {
-        // implement this method
-        return new int[0][0]; // delete this line!
+        if (checkSudoku(rawSudoku)) {
+            for (int row = 0; row < 9; row++) {
+                for (int column = 0; column < 9; column++) {
+                    for (int i = 0; i < 9; i++) {
+                        
+                    }
+                }
+            }
+            return null;
+        } else {
+            return rawSudoku;
+        }
     }
 
     @Override
@@ -80,4 +106,44 @@ public class SudokuSolver implements ISudokuSolver {
     }
 
     // add helper methods here if necessary
+    public boolean checkRow(int[][] board, int row) {
+        boolean[] constraint = new boolean[9];
+        return IntStream.range(0, 9)
+                .allMatch(column -> checkConstraint(board, row, constraint, column));
+    }
+
+    public boolean checkColumn(int[][] board, int column) {
+        boolean[] constraint = new boolean[9];
+        return IntStream.range(0, 9)
+                .allMatch(row -> checkConstraint(board, row, constraint, column));
+    }
+
+    public boolean checkBox(int[][] board, int column, int row) {
+        boolean[] constraint = new boolean[9];
+        int subsectionRowStart = (row / 9) * 9;
+        int subsectionRowEnd = subsectionRowStart + 9;
+
+        int subsectionColumnStart = (column / 9) * 9;
+        int subsectionColumnEnd = subsectionColumnStart + 9;
+
+        for (int r = subsectionRowStart; r < subsectionRowEnd; r++) {
+            for (int c = subsectionColumnStart; c < subsectionColumnEnd; c++) {
+                if (!checkConstraint(board, r, constraint, c)) {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+
+    public boolean checkConstraint(int[][] board, int row, boolean[] constraint, int column) {
+        if (board[row][column] != 0) {
+            if (!constraint[board[row][column] - 1]) {
+                constraint[board[row][column] - 1] = true;
+            } else {
+                return false;
+            }
+        }
+        return true;
+    }
 }

@@ -5,6 +5,7 @@
  */
 package net.htlgrieskirchen.pos3.sudoku;
 
+import hausuebung.pkg5.SudokuSolver;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
