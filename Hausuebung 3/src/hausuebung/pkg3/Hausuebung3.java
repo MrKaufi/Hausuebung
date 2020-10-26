@@ -34,45 +34,24 @@ public class Hausuebung3 {
         List<Weapon> list = wr.getWeapons();
         Stream<Weapon> weaponStream = list.stream();
 
-        final Predicate<Integer> isEven = (t) -> {
-            if (t % 2 == 0) {
-                return true;
-            }
-            return false;
-        };
-        final Predicate<Integer> isOdd = (t) -> {
-            if (t % 2 == 0) {
-                return false;
-            }
-            return true;
-        };
-        final IntPredicate isPositive = (value) -> {
-            if (value >= 0) {
-                return true;
-            }
-            return false;
-        };
-        final Predicate<Integer> isNull = (t) -> {
-            if (t == null) {
-                return true;
-            }
-            return false;
-        };
-        final Predicate<String> isShortWord = (t) -> {
-            if (t.length() <= 4) {
-                return true;
-            }
-            return false;
-        };
+        final Predicate<Integer> isEven = (t) -> t % 2 == 0;
 
+        final Predicate<Integer> isOdd = (t) -> t % 2 == 0;
+
+        final Predicate<Integer> isPositive = (t) -> t >= 0;
+
+        final Predicate<Integer> isNull = (t) -> t == null;
+
+        final Predicate<String> isShortWord = (t) -> t.length() < 5;
+        
         int[] intArray = new int[10000];
         for (int i = 0; i < intArray.length; i++) {
             intArray[i] = (int) (Math.random() * 100);
         }
-        
+
         weaponStream.filter(isEven.and(isPositive));
-        weaponStream.filter(isPositive.and(isOdd));
-                
+        weaponStream.filter(isPositive.or(isOdd.negate()));
+
         String[] stringArray = new String[10];
         for (int i = 0; i < stringArray.length; i++) {
             byte[] array = new byte[10];
@@ -88,7 +67,7 @@ public class Hausuebung3 {
         list.sort((Weapon w1, Weapon w2) -> w1.getCombatType().toString().compareTo(w2.getCombatType().toString()));
         list.sort((Weapon w1, Weapon w2) -> w1.getDamageType().toString().compareTo(w2.getDamageType().toString()));
         list.sort((Weapon w1, Weapon w2) -> w1.getName().compareTo(w2.getName()));
-        
+
         weaponStream.forEach(w -> System.out.println(w.toString()));
 
         /*list.sort((Weapon w1, Weapon w2) -> {
