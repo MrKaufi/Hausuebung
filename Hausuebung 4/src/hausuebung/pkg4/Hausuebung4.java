@@ -20,12 +20,18 @@ public class Hausuebung4 {
     public static void main(String[] args) throws FileNotFoundException {
         CsvReader reader = new CsvReader();
         List<String> numbers = reader.readCsv();
-
+        int chunks = 100;//can be changed
+        int teiler = 5;//can be changed
+        
         for (int i = 0; i < numbers.size(); i++) {
-            if (!reader.notNumber(numbers.get(i))) {
-                System.out.println(numbers.get(i));
-            }
+            System.out.println(numbers.get(i));
         }
+        
+        Thread[] threads = new Thread[100];
+        for (int i = 0; i < threads.length; i++) {
+            threads[i] = new Thread(new MyRunnable(teiler,numbers, chunks, i));
+       }
+        
     }
 
 }
