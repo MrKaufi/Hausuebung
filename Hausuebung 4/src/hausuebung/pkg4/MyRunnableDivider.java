@@ -10,13 +10,13 @@ package hausuebung.pkg4;
  *
  * @author flori
  */
-public class MyRunnable implements Runnable {
+public class MyRunnableDivider implements Runnable {
 
     int teiler;
     int part;
     String[] chunk;
 
-    public MyRunnable(String[] chunk, int part, int teiler) {
+    public MyRunnableDivider(String[] chunk, int part, int teiler) {
         this.teiler = teiler;
         this.part = part;
         this.chunk = chunk;
