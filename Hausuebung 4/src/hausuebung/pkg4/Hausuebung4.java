@@ -7,6 +7,11 @@ package hausuebung.pkg4;
 
 import java.io.FileNotFoundException;
 import java.util.List;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ThreadFactory;
+import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.TimeUnit;
 
 /**
  *
@@ -20,18 +25,38 @@ public class Hausuebung4 {
     public static void main(String[] args) throws FileNotFoundException {
         CsvReader reader = new CsvReader();
         List<String> numbers = reader.readCsv();
-        int chunks = 100;//can be changed
-        int teiler = 5;//can be changed
-        
-        for (int i = 0; i < numbers.size(); i++) {
-            System.out.println(numbers.get(i));
+        int c = 2;//can be changed
+        int teiler = 924;//can be changed
+        String[][] chunks = new String[c][numbers.size() / c];
+
+        String[] chunk = new String[chunks.length];
+
+        for (int i = 0; i < c; i++) {
+            for (int j = 0; j < numbers.size() / c; j++) {
+                chunks[i][j] = numbers.get(j);
+            }
         }
-        
-        Thread[] threads = new Thread[100];
-        for (int i = 0; i < threads.length; i++) {
-            threads[i] = new Thread(new MyRunnable(teiler,numbers, chunks, i));
-       }
-        
+
+//        for (int i = 0; i < numbers.size(); i++) {
+//            System.out.println(numbers.get(i));
+//        }
+        ThreadPoolExecutor executor = (ThreadPoolExecutor) Executors.newFixedThreadPool(c);
+
+        for (int i = 0; i < c; i++) {
+
+            chunk = chunks[i];
+
+            MyRunnable myRunable = new MyRunnable(chunk, i, teiler);
+            System.out.println("Task " + i + ": Created");
+            executor.execute(myRunable);
+
+        }
+        executor.shutdown();
+
+//        Thread[] threads = new Thread[c];
+//        for (int i = 0; i < threads.length; i++) {
+//            threads[i] = new Thread(new MyRunnable(teiler, numbers, c, i));
+//        }
     }
 
 }

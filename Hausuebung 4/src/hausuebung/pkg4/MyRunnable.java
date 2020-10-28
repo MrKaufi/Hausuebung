@@ -5,43 +5,48 @@
  */
 package hausuebung.pkg4;
 
-import java.util.List;
 
 /**
  *
  * @author flori
  */
-public class MyRunnable implements Runnable{
+public class MyRunnable implements Runnable {
+
     int teiler;
     int part;
-    List<String> allNumbers;
-    int chunks;
-    String[] numbers;
+    String[] chunk;
 
-    public MyRunnable(int teiler, List<String> allNumbers, int chunks, int part) {
+    public MyRunnable(String[] chunk, int part, int teiler) {
         this.teiler = teiler;
-        this.numbers = new String[allNumbers.size()/chunks];
         this.part = part;
-        this.allNumbers = allNumbers;
-        this.chunks = chunks;
+        this.chunk = chunk;
     }
-    
-    
-    
-    
+
     @Override
     public void run() {
-        
-        for (int i = 0; i < numbers.length; i++) {
-            for (int j = numbers.length*part; j < numbers.length*part+numbers.length; j++) {
-                numbers[i] = allNumbers.get(j);
+        System.out.println("Executing Task: " + part);
+        for (int i = 0; i < chunk.length; i++) {
+            if (Integer.parseInt(chunk[i]) % teiler == 0) {
+                System.out.println(chunk[i]);
             }
         }
-        for (int i = 0; i < numbers.length; i++) {
-            if (Integer.parseInt(numbers[i]) % teiler == 0) {
-                System.out.println(numbers[i]);
-            }
-        }
+//        
+//        
+//        for (int i = 0; i < chunks.length; i++) {
+//            int start = i * chunks.length;
+//            int length = Math.min(i, i)
+//        }
+//        for (int i = 0; i < numbers.length; i++) {
+//            for (int j = numbers.length * part; j < numbers.length * part + numbers.length; j++) {
+//                numbers[i] = allNumbers.get(j);
+//            }
+//            System.out.println(numbers[i]);
+//        }
+//        for (int i = 0; i < numbers.length; i++) {
+//            if (Integer.parseInt(numbers[i]) % teiler == 0) {
+//                System.out.println(numbers[i]);
+//            }
+//        }
     }
-    
+
 }

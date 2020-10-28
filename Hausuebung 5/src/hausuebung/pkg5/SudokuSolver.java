@@ -9,6 +9,8 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.stream.IntStream;
@@ -55,48 +57,109 @@ public class SudokuSolver implements ISudokuSolver {
 
     @Override
     public boolean checkSudoku(int[][] rawSudoku) {
-        boolean r = false;
-        boolean c = false;
         boolean b = false;
+
+        //rows
         for (int i = 0; i < 9; i++) {
-            if (!checkRow(sudoku, i)) {
-                r = false;
+            Set<Integer> set = new HashSet<>();
+            for (int j = 0; j < 9; j++) {
+                set.add(sudoku[i][j]);
+            }
+            if (set.size() < sudoku.length) {
+                b = false;
+            } else {
+                b = true;
             }
         }
+
+        //columns
         for (int i = 0; i < 9; i++) {
-            if (!checkColumn(sudoku, i)) {
-                c = false;
+            Set<Integer> set = new HashSet<>();
+            for (int j = 0; j < 9; j++) {
+                set.add(sudoku[j][i]);
+            }
+            if (set.size() < sudoku.length) {
+                b = false;
+            } else {
+                b = true;
             }
         }
-        for (int i = 0; i < 9; i++) {
-            for (int j = 0; j < 0; j++) {
-                if (!checkBox(sudoku, i, j)) {
-                    b = false;
+
+        //boxes
+        int y = 0;
+        for (int x = 0; x < 9; x++) {
+            Set<Integer> set = new HashSet<>();
+            for (int i = 0 + y; i < 3 + y; i++) {
+                for (int j = 0 + y; j < 3 + y; j++) {
+                    set.add(sudoku[i][j]);
+                    System.out.print(sudoku[i][j]);
+                    
                 }
+                System.out.println();
             }
-
+            if (set.size() < sudoku.length) {
+                b = false;
+            } else {
+                b = true;
+            }
+            y = y+3;
         }
-        if (r && c && b) {
-            return true;
-        }
 
-        return false;
+        return b;
+
+//        boolean r = false;
+//        boolean c = false;
+//        boolean b = false;
+//        for (int i = 0; i < 9; i++) {
+//            if (!checkRow(sudoku, i)) {
+//                r = false;
+//            }
+//        }
+//        for (int i = 0; i < 9; i++) {
+//            if (!checkColumn(sudoku, i)) {
+//                c = false;
+//            }
+//        }
+//        for (int i = 0; i < 9; i++) {
+//            for (int j = 0; j < 0; j++) {
+//                if (!checkBox(sudoku, i, j)) {
+//                    b = false;
+//                }
+//            }
+//
+//        }
+//        if (r && c && b) {
+//            return true;
+//        }
+//
+//        return false;
     }
 
     @Override
     public int[][] solveSudoku(int[][] rawSudoku) {
-        if (checkSudoku(rawSudoku)) {
-            for (int row = 0; row < 9; row++) {
-                for (int column = 0; column < 9; column++) {
-                    for (int i = 0; i < 9; i++) {
-                        
-                    }
+        int[][] finished = rawSudoku;
+
+        for (int i = 0; i < 9; i++) {
+            for (int j = 0; j < 9; j++) {
+                if (true) {
+
                 }
             }
-            return null;
-        } else {
-            return rawSudoku;
         }
+
+        return finished;
+//        if (checkSudoku(rawSudoku)) {
+//            for (int row = 0; row < 9; row++) {
+//                for (int column = 0; column < 9; column++) {
+//                    for (int i = 0; i < 9; i++) {
+//
+//                    }
+//                }
+//            }
+//            return null;
+//        } else {
+//            return rawSudoku;
+//        }
     }
 
     @Override
@@ -105,45 +168,45 @@ public class SudokuSolver implements ISudokuSolver {
         return new int[0][0]; // delete this line!
     }
 
-    // add helper methods here if necessary
-    public boolean checkRow(int[][] board, int row) {
-        boolean[] constraint = new boolean[9];
-        return IntStream.range(0, 9)
-                .allMatch(column -> checkConstraint(board, row, constraint, column));
-    }
-
-    public boolean checkColumn(int[][] board, int column) {
-        boolean[] constraint = new boolean[9];
-        return IntStream.range(0, 9)
-                .allMatch(row -> checkConstraint(board, row, constraint, column));
-    }
-
-    public boolean checkBox(int[][] board, int column, int row) {
-        boolean[] constraint = new boolean[9];
-        int subsectionRowStart = (row / 9) * 9;
-        int subsectionRowEnd = subsectionRowStart + 9;
-
-        int subsectionColumnStart = (column / 9) * 9;
-        int subsectionColumnEnd = subsectionColumnStart + 9;
-
-        for (int r = subsectionRowStart; r < subsectionRowEnd; r++) {
-            for (int c = subsectionColumnStart; c < subsectionColumnEnd; c++) {
-                if (!checkConstraint(board, r, constraint, c)) {
-                    return false;
-                }
-            }
-        }
-        return true;
-    }
-
-    public boolean checkConstraint(int[][] board, int row, boolean[] constraint, int column) {
-        if (board[row][column] != 0) {
-            if (!constraint[board[row][column] - 1]) {
-                constraint[board[row][column] - 1] = true;
-            } else {
-                return false;
-            }
-        }
-        return true;
-    }
+//    // add helper methods here if necessary
+//    public boolean checkRow(int[][] board, int row) {
+//        boolean[] constraint = new boolean[9];
+//        return IntStream.range(0, 9)
+//                .allMatch(column -> checkConstraint(board, row, constraint, column));
+//    }
+//
+//    public boolean checkColumn(int[][] board, int column) {
+//        boolean[] constraint = new boolean[9];
+//        return IntStream.range(0, 9)
+//                .allMatch(row -> checkConstraint(board, row, constraint, column));
+//    }
+//
+//    public boolean checkBox(int[][] board, int column, int row) {
+//        boolean[] constraint = new boolean[9];
+//        int subsectionRowStart = (row / 9) * 9;
+//        int subsectionRowEnd = subsectionRowStart + 9;
+//
+//        int subsectionColumnStart = (column / 9) * 9;
+//        int subsectionColumnEnd = subsectionColumnStart + 9;
+//
+//        for (int r = subsectionRowStart; r < subsectionRowEnd; r++) {
+//            for (int c = subsectionColumnStart; c < subsectionColumnEnd; c++) {
+//                if (!checkConstraint(board, r, constraint, c)) {
+//                    return false;
+//                }
+//            }
+//        }
+//        return true;
+//    }
+//
+//    public boolean checkConstraint(int[][] board, int row, boolean[] constraint, int column) {
+//        if (board[row][column] != 0) {
+//            if (!constraint[board[row][column] - 1]) {
+//                constraint[board[row][column] - 1] = true;
+//            } else {
+//                return false;
+//            }
+//        }
+//        return true;
+//    }
 }
