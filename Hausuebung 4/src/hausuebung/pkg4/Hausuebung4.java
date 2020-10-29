@@ -6,9 +6,16 @@
 package hausuebung.pkg4;
 
 import java.io.FileNotFoundException;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
 import java.util.concurrent.ThreadPoolExecutor;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  *
@@ -27,9 +34,9 @@ public class Hausuebung4 {
 
         String[][] chunks = new String[c][numbers.size() / c];
         String[] chunk = new String[chunks.length];
-
+        
         ThreadPoolExecutor executor = (ThreadPoolExecutor) Executors.newFixedThreadPool(c);
-
+        //Beispiel 1:
 //        for (int i = 0; i < numbers.size(); i++) {
 //            System.out.println(numbers.get(i));
 //        }
@@ -51,9 +58,13 @@ public class Hausuebung4 {
 //        }
 //        executor.shutdown();
 
+        //Beispiel 2:
+        Set<Future<Integer>> set = new HashSet<>();
+        
         int gauss = 210;//can be changed later
+        int[] ergs = new int[c];
         int erg = 0;
-        int[] g = new int[gauss];
+        int[] g = new int[gauss + 1];
 
         for (int i = 1; i < g.length; i++) {
             g[i] = i;
@@ -63,16 +74,28 @@ public class Hausuebung4 {
         }
 
         for (int i = 0; i < c; i++) {
-            int[] p = new int[g.length/c];
+            int[] p = new int[g.length / c];
             for (int j = 0; j < p.length; j++) {
                 p[j] = g[j + (p.length * i)];
             }
-            MyRunnableGauss myRunnableGauss = new MyRunnableGauss(p, i);
+            Callable<Integer> gaussCallable = new GaussCallable(p, i);
             System.out.println("Task " + i + ": Created");
-            executor.execute(myRunnableGauss);
-            
+            Future<Integer> future = executor.submit(gaussCallable);
+            set.add(future);
         }
-        System.out.println(erg);
+        
+        for (Future<Integer> future : set) {
+            try {
+                erg += future.get();
+            } catch (InterruptedException ex) {
+                Logger.getLogger(Hausuebung4.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (ExecutionException ex) {
+                Logger.getLogger(Hausuebung4.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        }
+
+        System.out.println("Gauss von" + gauss + ": " + erg);
+        
         executor.shutdown();
     }
 }

@@ -5,29 +5,31 @@
  */
 package hausuebung.pkg4;
 
+import java.util.concurrent.Callable;
+
 /**
  *
  * @author Florian
  */
-public class MyRunnableGauss implements Runnable {
+public class GaussCallable implements Callable {
 
     int[] numbers;
     int part;
 
-    public MyRunnableGauss(int[] numbers, int part) {
+    public GaussCallable(int[] numbers, int part) {
         this.numbers = numbers;
         this.part = part;
     }
 
     @Override
-    public void run() {
+    public Object call() throws Exception {
         int erg = 0;
-        
-        
+
         for (int i = 0; i < numbers.length; i++) {
             erg += numbers[i];
         }
         System.out.println("Executing Task: " + part + ": erg: " + erg);
+        return erg;
     }
 
 }
