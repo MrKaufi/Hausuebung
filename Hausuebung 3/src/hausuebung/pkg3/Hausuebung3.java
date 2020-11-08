@@ -34,9 +34,16 @@ public class Hausuebung3 {
         List<Weapon> list = wr.getWeapons();
         Stream<Weapon> weaponStream = list.stream();
 
+        
+        
+        int[] intArray = new int[10000];
+        for (int i = 0; i < intArray.length; i++) {
+            intArray[i] = (int) (Math.random() * 100);
+        }
+
         final Predicate<Integer> isEven = (t) -> t % 2 == 0;
 
-        final Predicate<Integer> isOdd = (t) -> t % 2 == 0;
+        final Predicate<Integer> isOdd = (t) -> t % 2 != 0;
 
         final Predicate<Integer> isPositive = (t) -> t >= 0;
 
@@ -44,13 +51,15 @@ public class Hausuebung3 {
 
         final Predicate<String> isShortWord = (t) -> t.length() < 5;
         
-        int[] intArray = new int[10000];
-        for (int i = 0; i < intArray.length; i++) {
-            intArray[i] = (int) (Math.random() * 100);
-        }
-
-        weaponStream.filter(isEven.and(isPositive));
-        weaponStream.filter(isPositive.or(isOdd.negate()));
+        System.out.println(isEven.test(4));
+        System.out.println(isOdd.test(3));
+        System.out.println(isPositive.test(1));
+        System.out.println(isNull.test(null));
+        System.out.println(isShortWord.test("abc"));
+        
+        System.out.println(isEven.and(isPositive).test(2));
+        System.out.println(isPositive.or(isOdd).test(3));
+        
 
         String[] stringArray = new String[10];
         for (int i = 0; i < stringArray.length; i++) {

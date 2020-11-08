@@ -24,7 +24,6 @@ public class MyRunnableDivider implements Runnable {
 
     @Override
     public void run() {
-        System.out.println("Executing Task: " + part);
         for (int i = 0; i < chunk.length; i++) {
             if (Integer.parseInt(chunk[i]) % teiler == 0) {
                 System.out.println(chunk[i]);

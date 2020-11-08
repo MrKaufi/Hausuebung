@@ -7,6 +7,7 @@ package hausuebung.pkg5;
 
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashSet;
@@ -30,19 +31,46 @@ public class SudokuSolver implements ISudokuSolver {
     @Override
     public final int[][] readSudoku(File file) {
 
+//        try {
+//            BufferedReader br = new BufferedReader(newa FileReader(file));
+//            IntStream.range(0, 9)
+//                    .forEach(r -> IntStream.range(0, 9).
+//                    forEach(c -> {
+//                        try {
+//                            int result = Character.getNumericValue(br.read());
+//                            br.skip(1);
+//                            sudoku[r][c] = result;
+//                        } catch (IOException ex) {
+//                            Logger.getLogger(SudokuSolver.class.getName()).log(Level.SEVERE, null, ex);
+//                        }
+//                    }));
+//        } catch (IOException ex) {
+//            Logger.getLogger(SudokuSolver.class.getName()).log(Level.SEVERE, null, ex);
+//        }
+//        for (int i = 0; i < 9; i++) {
+//            for (int j = 0; j < 9; j++) {
+//                System.out.print(sudoku[i][j] + ";");
+//            }
+//            System.out.println("");
+//        }
         try {
             BufferedReader br = new BufferedReader(new FileReader(file));
-            IntStream.range(0, 9)
-                    .forEach(r -> IntStream.range(0, 9).
-                    forEach(c -> {
-                        try {
-                            int result = Character.getNumericValue(br.read());
-                            br.skip(1);
-                            sudoku[r][c] = result;
-                        } catch (IOException ex) {
-                            Logger.getLogger(SudokuSolver.class.getName()).log(Level.SEVERE, null, ex);
-                        }
-                    }));
+            for (int r = 0; r < 9; r++) {
+                for (int c = 0; c < 9; c++) {
+                    int result = Character.getNumericValue(br.read());
+                    br.skip(1);
+                    sudoku[r][c] = result;
+                }
+            }
+            for (int i = 0; i < 9; i++) {
+                for (int j = 0; j < 9; j++) {
+                    System.out.print(sudoku[i][j] + ";");
+                }
+                System.out.println("");
+            }
+
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(SudokuSolver.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
             Logger.getLogger(SudokuSolver.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -93,7 +121,7 @@ public class SudokuSolver implements ISudokuSolver {
                 for (int j = 0 + y; j < 3 + y; j++) {
                     set.add(sudoku[i][j]);
                     System.out.print(sudoku[i][j]);
-                    
+
                 }
                 System.out.println();
             }
@@ -102,7 +130,7 @@ public class SudokuSolver implements ISudokuSolver {
             } else {
                 b = true;
             }
-            y = y+3;
+            y = y + 3;
         }
 
         return b;

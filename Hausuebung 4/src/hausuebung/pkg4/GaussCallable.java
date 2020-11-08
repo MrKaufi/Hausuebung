@@ -28,7 +28,6 @@ public class GaussCallable implements Callable {
         for (int i = 0; i < numbers.length; i++) {
             erg += numbers[i];
         }
-        System.out.println("Executing Task: " + part + ": erg: " + erg);
         return erg;
     }
 
