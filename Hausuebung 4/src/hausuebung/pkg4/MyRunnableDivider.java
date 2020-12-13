@@ -39,6 +39,7 @@ public class MyRunnableDivider implements Runnable {
 //            for (int j = numbers.length * part; j < numbers.length * part + numbers.length; j++) {
 //                numbers[i] = allNumbers.get(j);
 //            }
+
 //            System.out.println(numbers[i]);
 //        }
 //        for (int i = 0; i < numbers.length; i++) {

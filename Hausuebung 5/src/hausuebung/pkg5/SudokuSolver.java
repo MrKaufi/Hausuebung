@@ -31,46 +31,22 @@ public class SudokuSolver implements ISudokuSolver {
     @Override
     public final int[][] readSudoku(File file) {
 
-//        try {
-//            BufferedReader br = new BufferedReader(newa FileReader(file));
-//            IntStream.range(0, 9)
-//                    .forEach(r -> IntStream.range(0, 9).
-//                    forEach(c -> {
-//                        try {
-//                            int result = Character.getNumericValue(br.read());
-//                            br.skip(1);
-//                            sudoku[r][c] = result;
-//                        } catch (IOException ex) {
-//                            Logger.getLogger(SudokuSolver.class.getName()).log(Level.SEVERE, null, ex);
-//                        }
-//                    }));
-//        } catch (IOException ex) {
-//            Logger.getLogger(SudokuSolver.class.getName()).log(Level.SEVERE, null, ex);
-//        }
-//        for (int i = 0; i < 9; i++) {
-//            for (int j = 0; j < 9; j++) {
-//                System.out.print(sudoku[i][j] + ";");
-//            }
-//            System.out.println("");
-//        }
         try {
             BufferedReader br = new BufferedReader(new FileReader(file));
-            for (int r = 0; r < 9; r++) {
-                for (int c = 0; c < 9; c++) {
-                    int result = Character.getNumericValue(br.read());
-                    br.skip(1);
-                    sudoku[r][c] = result;
-                }
-            }
-            for (int i = 0; i < 9; i++) {
-                for (int j = 0; j < 9; j++) {
-                    System.out.print(sudoku[i][j] + ";");
-                }
-                System.out.println("");
-            }
-
-        } catch (FileNotFoundException ex) {
-            Logger.getLogger(SudokuSolver.class.getName()).log(Level.SEVERE, null, ex);
+            IntStream.range(0, 9)
+                    .forEach(r -> IntStream.range(0, 9).
+                    forEach(c -> {
+                        try {
+                            int result = Character.getNumericValue(Integer.parseInt(br.read() + ""));
+//                                    Character.getNumericValue(br.read());
+                            
+                            sudoku[r][c] = result;
+                            br.skip(1);
+                            
+                        } catch (IOException ex) {
+                            Logger.getLogger(SudokuSolver.class.getName()).log(Level.SEVERE, null, ex);
+                        }
+                    }));
         } catch (IOException ex) {
             Logger.getLogger(SudokuSolver.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -80,58 +56,85 @@ public class SudokuSolver implements ISudokuSolver {
             }
             System.out.println("");
         }
+//        try {
+//            BufferedReader br = new BufferedReader(new FileReader(file));
+//            for (int r = 0; r < 9; r++) {
+//                for (int c = 0; c < 9; c++) {
+//                    int result = Character.getNumericValue(br.read());
+//                    br.skip(1);
+//                    sudoku[r][c] = result;
+//                }
+//            }
+//            for (int i = 0; i < 9; i++) {
+//                for (int j = 0; j < 9; j++) {
+//                    System.out.print(sudoku[i][j] + ";");
+//                }
+//                System.out.println("");
+//            }
+//
+//        } catch (FileNotFoundException ex) {
+//            Logger.getLogger(SudokuSolver.class.getName()).log(Level.SEVERE, null, ex);
+//        } catch (IOException ex) {
+//            Logger.getLogger(SudokuSolver.class.getName()).log(Level.SEVERE, null, ex);
+//        }
+//        for (int i = 0; i < 9; i++) {
+//            for (int j = 0; j < 9; j++) {
+//                System.out.print(sudoku[i][j] + ";");
+//            }
+//            System.out.println("");
+//        }
         return sudoku;
     }
 
     @Override
     public boolean checkSudoku(int[][] rawSudoku) {
         boolean b = false;
-
-        //rows
-        for (int i = 0; i < 9; i++) {
-            Set<Integer> set = new HashSet<>();
-            for (int j = 0; j < 9; j++) {
-                set.add(sudoku[i][j]);
-            }
-            if (set.size() < sudoku.length) {
-                b = false;
-            } else {
-                b = true;
-            }
-        }
-
-        //columns
-        for (int i = 0; i < 9; i++) {
-            Set<Integer> set = new HashSet<>();
-            for (int j = 0; j < 9; j++) {
-                set.add(sudoku[j][i]);
-            }
-            if (set.size() < sudoku.length) {
-                b = false;
-            } else {
-                b = true;
-            }
-        }
-
-        //boxes
-        int y = 0;
-        for (int x = 0; x < 9; x++) {
-            Set<Integer> set = new HashSet<>();
-            for (int i = 0 + y; i < 3 + y; i++) {
-                for (int j = 0 + y; j < 3 + y; j++) {
-                    set.add(sudoku[i][j]);
-                    System.out.print(sudoku[i][j]);
-
-                }
-                System.out.println();
-            }
-            if (set.size() < sudoku.length) {
-                b = false;
-            } else {
-                b = true;
-            }
-            y = y + 3;
-        }
+//
+//        //rows
+//        for (int i = 0; i < 9; i++) {
+//            Set<Integer> set = new HashSet<>();
+//            for (int j = 0; j < 9; j++) {
+//                set.add(sudoku[i][j]);
+//            }
+//            if (set.size() < sudoku.length) {
+//                b = false;
+//            } else {
+//                b = true;
+//            }
+//        }
+//
+//        //columns
+//        for (int i = 0; i < 9; i++) {
+//            Set<Integer> set = new HashSet<>();
+//            for (int j = 0; j < 9; j++) {
+//                set.add(sudoku[j][i]);
+//            }
+//            if (set.size() < sudoku.length) {
+//                b = false;
+//            } else {
+//                b = true;
+//            }
+//        }
+//
+//        //boxes
+//        int y = 0;
+//        for (int x = 0; x < 9; x++) {
+//            Set<Integer> set = new HashSet<>();
+//            for (int i = 0 + y; i < 3 + y; i++) {
+//                for (int j = 0 + y; j < 3 + y; j++) {
+//                    set.add(sudoku[i][j]);
+//                    System.out.print(sudoku[i][j]);
+//
+//                }
+//                System.out.println();
+//            }
+//            if (set.size() < sudoku.length) {
+//                b = false;
+//            } else {
+//                b = true;
+//            }
+//            y = y + 3;
+//        }
 
         return b;
 

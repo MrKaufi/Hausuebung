@@ -7,7 +7,6 @@ package hausuebung.pkg3;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
@@ -38,9 +37,10 @@ public class Streams {
     }
 
     public Weapon findWeaponWithLowestDamage(List<Weapon> weapons) {
-        return weapons.stream()
-                .min(Comparator.comparingInt(Weapon::getDamage))
-                .get();
+        if (weapons == null || weapons.isEmpty())
+            return null;
+
+        return weapons.stream().min((w1, w2) -> w1.getDamage() - w2.getDamage()).get();
 
         /*
         Weapon erg = weapons.get(0);
@@ -54,9 +54,10 @@ public class Streams {
     }
 
     public Weapon findWeaponWithHighestStrength(List<Weapon> weapons) {
-        return weapons.stream()
-                .max(Comparator.comparingInt(Weapon::getStrength))
-                .get();
+        if (weapons == null || weapons.isEmpty())
+            return null;
+
+        return weapons.stream().max((w1, w2) -> w1.getMinStrength() - w2.getMinStrength()).get();
         /*
         Weapon erg = weapons.get(0);
         for (Weapon weapon : weapons) {
@@ -84,9 +85,10 @@ public class Streams {
     }
 
     public Weapon findWeaponWithLongestName(List<Weapon> weapons) {
-        return weapons.stream()
-                .max(Comparator.comparingInt(Weapon::getName))
-                .get();
+        if (weapons == null || weapons.isEmpty())
+            return null;
+
+        return weapons.stream().max((w1, w2) -> w1.getName().length() - w2.getName().length()).get();
         /*
         Weapon erg = weapons.get(0);
         for (Weapon weapon : weapons) {
@@ -157,7 +159,6 @@ public class Streams {
         return weapons.stream()
                 .distinct()
                 .collect(Collectors.toList());
-
         /*
         Set<Weapon> ergSet = new HashSet<>(weapons);
         List<Weapon> erg = new ArrayList<>();
@@ -167,13 +168,16 @@ public class Streams {
     }
 
     public void increaseValuesByTenPercent(List<Weapon> weapons) {
-        weapons.stream()
-                .map(Weapon::getValue)
-                .mapToInt(x -> x / 10 * 11);
-        /*
+        if (weapons == null || weapons.isEmpty()) {
+            return;
+        }
+
+        weapons.forEach(w -> w.setValue((int) (w.getValue() * 1.1d)));
+    }
+    /*
         for (int i = 0; i < weapons.size(); i++) {
             weapons.get(i).value = (weapons.get(i).getValue() / 10) * 11;
         }
-         */
-    }
+     */
 }
+

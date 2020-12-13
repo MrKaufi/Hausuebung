@@ -6,7 +6,7 @@
 package hausuebung.pkg4;
 
 import java.io.FileNotFoundException;
-import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Scanner;
@@ -80,24 +80,33 @@ public class Hausuebung4 {
 
                 case "2":
                     //Beispiel 2:
-                    System.out.println("Wieviele Threads sie möchten erstellen: ");
-                    c = sc.nextInt();
-                    executor = (ThreadPoolExecutor) Executors.newFixedThreadPool(c);
                     System.out.println("Welche Summe möchten sie berechnen: ");
                     gauss = sc.nextInt();
                     Set<Future<Integer>> set = new HashSet<>();
 
                     int erg = 0;
-                    int[] g = new int[gauss + 1];
 
+                    //Array mit Zahlen füllen
+                    int[] g = new int[gauss + 1];
                     for (int i = 1; i < g.length; i++) {
                         g[i] = i;
                     }
+                    //Chunks erstellen mit bis zu 100 stellen
+                    for (int i = 0; i <= g.length / 100; i++) {
+                        int[] p = Arrays.copyOfRange(g, i * 100, (i + 1) * 100);
+                        if (i == g.length / 100) {
+                            int num = 0;
+                            for (int j = 0; j < 100; j++) {
+                                if (p[j] != 0) {
+                                    num++;
+                                }
+                            }
+                            p = Arrays.copyOfRange(g, i * 100, i * 100 + num);
+                        }
 
-                    for (int i = 0; i < c; i++) {
-                        int[] p = new int[g.length / c];
-                        for (int j = 0; j < p.length; j++) {
-                            p[j] = g[j + (p.length * i)];
+                        System.out.println("Chunk: " + i);
+                        for (int k = 0; k < p.length; k++) {
+                            System.out.println(p[k]);
                         }
                         Callable<Integer> gaussCallable = new GaussCallable(p, i);
                         Future<Integer> future = executor.submit(gaussCallable);
