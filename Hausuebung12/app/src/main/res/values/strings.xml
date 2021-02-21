@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Rechner by Kaufi</string>
+
+    <string name="null_">0</string>
+    <string name="eins">1</string>
+    <string name="zwei">2</string>
+    <string name="drei">3</string>
+    <string name="vier">4</string>
+    <string name="fuenf">5</string>
+    <string name="sechs">6</string>
+    <string name="sieben">7</string>
+    <string name="acht">8</string>
+    <string name="neun">9</string>
+
+    <string name="clear">clear</string>
+    <string name="klammerAuf">(</string>
+    <string name="klammerZu">)</string>
+    <string name="kommer">,</string>
+    <string name="addieren">+</string>
+    <string name="subtrahieren">-</string>
+    <string name="multiplizieren">*</string>
+    <string name="dividieren">/</string>
+    <string name="gleich">=</string>
+</resources>

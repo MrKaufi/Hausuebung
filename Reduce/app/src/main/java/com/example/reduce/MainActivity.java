@@ -11,18 +11,23 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+    TextView erg;
+    EditText nominator;
+    EditText denominator;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        nominator = (EditText) findViewById(R.id.nominator);
+        denominator = (EditText) findViewById(R.id.denominator);
+        erg = (TextView) findViewById(R.id.ergebnis);
         Button btn = (Button) findViewById(R.id.reduce);
+
+
+
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                EditText nominator = (EditText) findViewById(R.id.nominator);
-                EditText denominator = (EditText) findViewById(R.id.denominator);
-                TextView erg = (TextView) findViewById(R.id.ergebnis);
 
                 erg.setText(reduce(Integer.parseInt(nominator.getText().toString()), Integer.parseInt(denominator.getText().toString()))+"");
             }
