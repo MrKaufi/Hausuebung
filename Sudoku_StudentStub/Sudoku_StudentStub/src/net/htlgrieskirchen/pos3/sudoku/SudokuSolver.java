@@ -25,7 +25,11 @@ public class SudokuSolver implements ISodukoSolver {
     @Override
     public final int[][] readSudoku(File file) {
         int[][] sudoku = new int[9][9];
-
+        try {
+            BufferedReader br = new BufferedReader(new FileReader(file));
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(SudokuSolver.class.getName()).log(Level.SEVERE, null, ex);
+        }
         try {
             sudoku = Files.lines(file.toPath()).
                     map(s -> s.split(";")).

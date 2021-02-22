@@ -1,0 +1,36 @@
+Lieber Gabriel,
+
+kein Problem. Ich freue mich, dass du fragst dafür bin ich ja da! Sodalezi ich hoffe ich kann dir das nun so gut wie möglich erklären:
+
+Aaaalso du musst den WebCrawler mit dem Fork-Join Framework implementieren. (Das ganze auch mit einem Executor service zu implementieren ist eine Zusatzaufgabe). Um den Crawler mit dem Fork-Join Framework zu implementieren, benötigst du folgende Klassen aus dem Student-Stub:
+WebCrawler7
+LinkFinderAction und
+ILinkHandler
+(Die anderen Klassen sind für die Lösung mit dem ExecutorService).Du startest am besten deine Implementierung in der Klasse WebCrawler7. In der Klasse WebCrawler7 gibt es eine Methode namens "startCrawling" in dieser Methode legst du eine neue Instanz der Klasse "LinkFinderAction" an. Dieser gibst du die startingUrl mit und eine Instanz des WebCrawler7, da WebCrawler7 ja von ILinkHandler erbt. Dadurch dass du nun in der Klasse "LinkFinderAction" eine Instanz von ILinkHandler hast, kannst du besuchte links zu der Liste "visitedLinks" hinzufügen (methode "addVisited") und du kannst überprüfen ob du schon einen Link besucht hast (methode "visited") außerdem kannst du überprüfen wie viele Links du bereits besucht hast (methode "size"). Die Implementierung dieser Methoden (addVisited, visited und size) befinden sich alle im WebCrawler7.
+
+So nun gehen wir weiter in die Implementierung der Klasse LinkFinderAction. Im Konstruktor musst du einfach url und cr den lokalen Variablen zuweisen und fertig. Die "compute" Methode ist die Methode die die eigentliche Arbeit macht. Ich schreib dir jetzt mal einen Pseudocode was die compute methode machen soll:
+
+function compute() begin
+
+   wenn zum beispiel 1000 links besucht (kanst mit der methode size vom IlinkHandler überprüfen) wurden dann
+      einfach nichts machen compute beenden
+   ansonsten
+      alle links der aktuellen seite/url (die aktuelle seite steht in der variable url) in eine liste speichern
+     
+      für jeden link in der liste mache folgendes:
+         falls der link noch nicht besucht wurde:
+             lege für jeden link eine neue LinkFinderAction an und gib den link und cr mit
+             speichere die LinkFinderAction in einer Liste
+             füge die url des aktuellen links zu der liste der besuchten urls hinzu (Methode addVistied von IlinkHandler)
+     
+      führe invokeAll aus mit allen LinkFinderActions
+   ende wenn
+
+end
+
+Jetzt stellt sich nur noch die Frage wie man alle Links einer HTML-Seite herausfiltert. Das ist mit der Bibliothek htmlparser (http://htmlparser.sourceforge.net/) die ich in der Angabe vorgeschlagen habe, eigentlich ganz einfach. Lade dir die Bibliothek herunter und binde sie in dein Projekt ein. Dann kannst in dem Ordner "src" (src/org/htmlparser/parserapplications) folgende Datei finden (LinkExtractor.java). Ich hab dir diese Datei auch nochmal in den Anhang gepackt. In der Datei LinkExtractor.java zeigen die Entwickler der Bibliothek wie man alle links einer HTML-Seite herausfindet wenn man die URL der Seite kennt. Das kannst im Grunde 1:1 so übernehmen!
+
+Sodale ich hoffe ich konnte dir etwas helfen. Wenn noch weitere Fragen auftauchen scheue dich bitte nicht dich zu melden!
+
+lg
+Rainer

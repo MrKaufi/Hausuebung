@@ -19,7 +19,11 @@ public class Hausuebung5 {
     public static void main(String[] args) {
         SudokuSolver ss = new SudokuSolver();
         int[][] sudoku = ss.readSudoku(new File("1_sudoku_level1.csv"));
-        System.out.println(ss.checkSudoku(sudoku));
+        
+        if (ss.checkSudoku(sudoku)) {
+            System.out.println("True");
+        }
+        else System.out.println("False");
         
     }
     

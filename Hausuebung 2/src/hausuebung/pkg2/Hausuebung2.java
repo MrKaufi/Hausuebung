@@ -67,7 +67,9 @@ public class Hausuebung2 {
         CalculationOperation xCdiv = (x, y) -> {
             return new Number((x.getA() / y.getA()) - (x.getB() / y.getB()), (x.getA() / y.getB()) + (x.getB() / y.getA()));
         };
-
+        
+        
+        
         RationalCalculator rC = new RationalCalculator(rCadd, rCsub, rCmult, rCdiv);
         VectorCalculator vC = new VectorCalculator(vCadd, vCsub, vCmult, vCdiv);
         ComplexCalculator xC = new ComplexCalculator(xCadd, xCsub, xCmult, xCdiv);
@@ -76,7 +78,7 @@ public class Hausuebung2 {
 
         //Console
         System.out.println("Choose calculator:");
-        System.out.println("1: Relational calculator");
+        System.out.println("1: Rationalen calculator");
         System.out.println("2: Vector calculator");
         System.out.println("3: Complex calculator");
         System.out.println("4: Exit program");

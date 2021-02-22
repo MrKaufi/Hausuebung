@@ -6,6 +6,7 @@
 package hausuebung.pkg3;
 
 import java.util.Objects;
+import java.util.logging.Logger;
 
 /**
  *
@@ -42,8 +43,8 @@ public class Weapon {
         hash = 11 * hash + this.strength;
         hash = 11 * hash + this.value;
         return hash;
-    }
-
+    }    
+    
     public String getName() {
         return name;
     }
@@ -106,7 +107,7 @@ public class Weapon {
 
     @Override
     public String toString() {
-        return "Weapon{" + "name=" + name + ", cT=" + cT + ", dT=" + dT + ", damage=" + damage + ", speed=" + speed + ", strength=" + strength + ", value=" + value + '}';
+        return name + ";" + cT + ";" + dT + ";" + damage + ";" + speed + ";" + strength + ";" + value;
     }
     
     

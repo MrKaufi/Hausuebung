@@ -27,7 +27,9 @@ public class CsvReader {
             s = sc.nextLine();
             String[] strings = s.split(":");
             for (int i = 0; i < strings.length; i++) {
-                numbers.add(strings[i]);
+                if (!notNumber(strings[i])) {
+                    numbers.add(strings[i]);
+                }
             }
         }
         return numbers;
