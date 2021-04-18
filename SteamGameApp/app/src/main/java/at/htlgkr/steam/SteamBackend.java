@@ -24,10 +24,6 @@ public class SteamBackend {
 
     private List<Game> games;
 
-    public SteamBackend(ArrayList<Game> games) {
-        this.games = games;
-    }
-
     public SteamBackend() {
         this.games = new ArrayList<>();
     }
@@ -41,7 +37,6 @@ public class SteamBackend {
         while ((line = bufferedReader.readLine() ) != null){
             String[] splitGame = line.split(";");
             Date date = simpleDateFormat.parse(splitGame[1]);
-
             Game game = new Game(splitGame[0], date, Double.valueOf(splitGame[2]));
             addGame(game);
         }
@@ -49,11 +44,11 @@ public class SteamBackend {
     }
 
     public void store(OutputStream fileOutputStream) throws IOException {
-        PrintWriter bufferedWriter = new PrintWriter(new OutputStreamWriter(fileOutputStream));
+        PrintWriter printWriter = new PrintWriter(new OutputStreamWriter(fileOutputStream));
         for (int i = 0; i < games.size(); i++) {
-            bufferedWriter.print(games.get(i).toStringAlternative());
+            printWriter.println(games.get(i).toStringAlternative());
         }
-        bufferedWriter.flush();
+        printWriter.flush();
     }
 
     public List<Game> getGames() {
@@ -112,3 +107,4 @@ public class SteamBackend {
         return topGames;
     }
 }
+

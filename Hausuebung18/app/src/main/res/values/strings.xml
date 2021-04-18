@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Notizen by Kaufi</string> 
+    <string name="safe">safe to csv</string>
+    <string name="new_note">create new note</string>
+</resources>

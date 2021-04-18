@@ -8,7 +8,6 @@ import android.widget.BaseAdapter;
 import android.widget.TextView;
 
 import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.List;
 
 import at.htlgkr.steam.Game;
@@ -18,6 +17,7 @@ public class GameAdapter extends BaseAdapter {
     List<Game> games;
     int listViewItemLayoutId;
     LayoutInflater layoutInflater;
+    SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd.MM.yyyy");
 
     public GameAdapter(Context context, int listViewItemLayoutId, List<Game> games) {
         this.games = games;
@@ -45,7 +45,7 @@ public class GameAdapter extends BaseAdapter {
         Game game = games.get(position);
         View listItem = (givenView == null) ?layoutInflater.inflate(this.listViewItemLayoutId, null) : givenView;
         ((TextView) listItem.findViewById(R.id.gameName)).setText(game.getName());
-        ((TextView) listItem.findViewById(R.id.releaseDate)).setText(game.getReleaseDate().toString());
+        ((TextView) listItem.findViewById(R.id.releaseDate)).setText(simpleDateFormat.format(game.getReleaseDate()).toString());
         ((TextView) listItem.findViewById(R.id.price)).setText(String.valueOf(game.getPrice()));
         return listItem;
     }

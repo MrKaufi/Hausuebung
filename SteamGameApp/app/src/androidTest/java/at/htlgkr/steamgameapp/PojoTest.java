@@ -177,6 +177,8 @@ public class PojoTest {
         List<Game> actual = steamBackend.selectTopNGamesDependingOnPrice(5);
         List<Game> expected = DataHelper.getTop5Games();
 
+
+
         DataHelper.assertEqualsList(actual, expected);
     }
 

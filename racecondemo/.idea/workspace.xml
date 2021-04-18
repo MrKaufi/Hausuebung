@@ -1,125 +1,649 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d55e2642-39db-4d2a-9390-a2f762440f22" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="d55e2642-39db-4d2a-9390-a2f762440f22" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../010_web_crawler (1).zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../010_web_crawler/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../010_web_crawler/htmllexer.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../010_web_crawler/htmlparser.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../010_web_crawler/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../010_web_crawler/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../010_web_crawler/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../010_web_crawler/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../010_web_crawler/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../010_web_crawler/src/net/eaustria/webcrawler/ILinkHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../010_web_crawler/src/net/eaustria/webcrawler/LinkExtractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../010_web_crawler/src/net/eaustria/webcrawler/LinkFinder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../010_web_crawler/src/net/eaustria/webcrawler/LinkFinderAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../010_web_crawler/src/net/eaustria/webcrawler/WebCrawler6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../010_web_crawler/src/net/eaustria/webcrawler/WebCrawler7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../010_web_crawler/uml_web_crawler.puml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11 H ProducerConsumerProblem Stub/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11 H ProducerConsumerProblem Stub/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11 H ProducerConsumerProblem Stub/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11 H ProducerConsumerProblem Stub/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11 H ProducerConsumerProblem Stub/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11 H ProducerConsumerProblem Stub/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11 H ProducerConsumerProblem Stub/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11 H ProducerConsumerProblem Stub/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11 H ProducerConsumerProblem Stub/src/net/htlgrieskirchen/pos3/pcp/Consumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11 H ProducerConsumerProblem Stub/src/net/htlgrieskirchen/pos3/pcp/Dagger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11 H ProducerConsumerProblem Stub/src/net/htlgrieskirchen/pos3/pcp/Executor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11 H ProducerConsumerProblem Stub/src/net/htlgrieskirchen/pos3/pcp/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11 H ProducerConsumerProblem Stub/src/net/htlgrieskirchen/pos3/pcp/Ork.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11 H ProducerConsumerProblem Stub/src/net/htlgrieskirchen/pos3/pcp/Producer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11 H ProducerConsumerProblem Stub/src/net/htlgrieskirchen/pos3/pcp/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11 H ProducerConsumerProblem Stub/src/net/htlgrieskirchen/pos3/pcp/Storage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11 H ProducerConsumerProblem Stub/src/net/htlgrieskirchen/pos3/pcp/Zusatzaufgabe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11 H ProducerConsumerProblem Stub/test/net/htlgrieskirchen/pos3/pcp/ExecutorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12 H TimeUtilProStub/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12 H TimeUtilProStub/build/built-jar.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12 H TimeUtilProStub/build/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12 H TimeUtilProStub/build/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12 H TimeUtilProStub/build/classes/net/htlgrieskirchen/pos3/timeutil/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12 H TimeUtilProStub/build/classes/net/htlgrieskirchen/pos3/timeutil/TimeUtilPro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12 H TimeUtilProStub/build/test/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12 H TimeUtilProStub/build/test/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12 H TimeUtilProStub/build/test/classes/TimeUltiProTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12 H TimeUtilProStub/dist/12_H_TimeUtilProStub.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12 H TimeUtilProStub/dist/README.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12 H TimeUtilProStub/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12 H TimeUtilProStub/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12 H TimeUtilProStub/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12 H TimeUtilProStub/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12 H TimeUtilProStub/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12 H TimeUtilProStub/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12 H TimeUtilProStub/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12 H TimeUtilProStub/src/net/htlgrieskirchen/pos3/timeutil/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12 H TimeUtilProStub/src/net/htlgrieskirchen/pos3/timeutil/TimeUtilPro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12 H TimeUtilProStub/test/TimeUltiProTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blockchain.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blockchain/10 H Blockchain/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blockchain/10 H Blockchain/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blockchain/10 H Blockchain/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blockchain/10 H Blockchain/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blockchain/10 H Blockchain/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blockchain/10 H Blockchain/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blockchain/10 H Blockchain/src/net/htlgrieskirchen/pos3/blockchain/chain/Block.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blockchain/10 H Blockchain/src/net/htlgrieskirchen/pos3/blockchain/chain/MiningBlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blockchain/10 H Blockchain/src/net/htlgrieskirchen/pos3/blockchain/chain/StringUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blockchain/10 H Blockchain/src/net/htlgrieskirchen/pos3/blockchain/chain/TransactionBlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blockchain/10 H Blockchain/src/net/htlgrieskirchen/pos3/blockchain/demo/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blockchain/10 H Blockchain/src/net/htlgrieskirchen/pos3/blockchain/mining/Miner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blockchain/10 H Blockchain/src/net/htlgrieskirchen/pos3/blockchain/mining/MinerParallel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blockchain/10 H Blockchain/src/net/htlgrieskirchen/pos3/blockchain/mining/MinerSerial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blockchain/10 H Blockchain/src/net/htlgrieskirchen/pos3/blockchain/mining/MyMiner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blockchain/10 H Blockchain/src/net/htlgrieskirchen/pos3/blockchain/mining/Worker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demoprogramme.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demoprogramme/TimeDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demoprogramme/UnitTesting/12 D UnitTesting/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demoprogramme/UnitTesting/12 D UnitTesting/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demoprogramme/UnitTesting/12 D UnitTesting/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demoprogramme/UnitTesting/12 D UnitTesting/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demoprogramme/UnitTesting/12 D UnitTesting/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demoprogramme/UnitTesting/12 D UnitTesting/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demoprogramme/UnitTesting/12 D UnitTesting/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demoprogramme/UnitTesting/12 D UnitTesting/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demoprogramme/UnitTesting/12 D UnitTesting/src/twelsch/htl/pos3/demo/java8/unittesting/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demoprogramme/UnitTesting/12 D UnitTesting/test/twelsch/htl/pos3/demo/java8/unittesting/MainTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmptyApp.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/androidTest/java/com/example/calculator/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/java/com/example/calculator/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/java/com/example/calculator/PostFixCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/java/com/example/calculator/PostFixConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/test/java/com/example/calculator/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hausuebung 11.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hausuebung 2.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hausuebung 3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hausuebung 4.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hausuebung13.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hausuebung17/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hausuebung17/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hausuebung17/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hausuebung17/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hausuebung17/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hausuebung17/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hausuebung17/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hausuebung17/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung17/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hausuebung17/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung17/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hausuebung17/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung17/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProducerConsumerProblem_StudentStub.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/app/src/androidTest/java/com/example/reduce/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/app/src/main/java/com/example/reduce/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/app/src/test/java/com/example/reduce/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/androidTest/java/at/htlgkr/steamgameapp/DataHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/androidTest/java/at/htlgkr/steamgameapp/GameDataCsvString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/androidTest/java/at/htlgkr/steamgameapp/GuiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/androidTest/java/at/htlgkr/steamgameapp/PojoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/main/assets/games.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/main/java/at/htlgkr/steam/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/main/java/at/htlgkr/steam/ReportType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/main/java/at/htlgkr/steam/SteamBackend.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/main/java/at/htlgkr/steamgameapp/GameAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/main/java/at/htlgkr/steamgameapp/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/main/java/at/htlgkr/steamgameapp/ReportTypeSpinnerItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/main/java/at/htlgkr/steamgameapp/SteamGameAppConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/main/res/layout/game_item_layout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/main/res/values/ids.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/test/java/at/htlgkr/steamgameapp/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../SteamGameApp/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp/app/src/main/java/at/htlgkr/steamgameapp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SteamGameApp/app/src/main/java/at/htlgkr/steamgameapp/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp/app/src/main/res/layout/game_item_layout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp/app/src/main/res/layout/new_game_dialog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp/app/src/main/res/layout/search_dialog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../SteamGameApp/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StringUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StringUtilFuerBsp1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/.evosuite/best-tests/net/htlgrieskirchen/pos3/streams/Streams_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/.evosuite/best-tests/net/htlgrieskirchen/pos3/streams/Streams_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/.evosuite/evosuite-seeds/net.htlgrieskirchen.pos3.streams.Streams.seed" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/.evosuite/project_info.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/.evosuite/tmp_2018_11_05_12_37_08/logs/net.htlgrieskirchen.pos3.streams.Streams/std_err_CLIENT.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/.evosuite/tmp_2018_11_05_12_37_08/logs/net.htlgrieskirchen.pos3.streams.Streams/std_err_MASTER.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/.evosuite/tmp_2018_11_05_12_37_08/logs/net.htlgrieskirchen.pos3.streams.Streams/std_out_CLIENT.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/.evosuite/tmp_2018_11_05_12_37_08/logs/net.htlgrieskirchen.pos3.streams.Streams/std_out_MASTER.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/.evosuite/tmp_2018_11_05_12_37_08/pools/net.htlgrieskirchen.pos3.streams.Streams.pool" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/.evosuite/tmp_2018_11_05_12_37_08/reports/net.htlgrieskirchen.pos3.streams.Streams/statistics.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/.evosuite/tmp_2018_11_05_12_37_08/seeds/net.htlgrieskirchen.pos3.streams.Streams.seed" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/.evosuite/tmp_2018_11_05_12_37_08/tests/net/htlgrieskirchen/pos3/streams/Streams_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/.evosuite/tmp_2018_11_05_12_37_08/tests/net/htlgrieskirchen/pos3/streams/Streams_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/.idea/libraries/apiguardian_api_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/6 H Streams.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/build/built-jar.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/build/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/build/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/build/classes/net/htlgrieskirchen/pos3/streams/CombatType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/build/classes/net/htlgrieskirchen/pos3/streams/DamageType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/build/classes/net/htlgrieskirchen/pos3/streams/Streams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/build/classes/net/htlgrieskirchen/pos3/streams/Weapon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/build/test/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/build/test/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/build/test/classes/net/htlgrieskirchen/pos3/streams/StreamsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/dist/6_H_Streams.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/dist/README.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/src/net/htlgrieskirchen/pos3/streams/CombatType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/src/net/htlgrieskirchen/pos3/streams/DamageType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/src/net/htlgrieskirchen/pos3/streams/Streams.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/src/net/htlgrieskirchen/pos3/streams/Weapon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/test/net/htlgrieskirchen/pos3/streams/StreamsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/weapons.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sudoku_StudentStub/Sudoku_StudentStub/1_sudoku_level1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sudoku_StudentStub/Sudoku_StudentStub/2_sudoku_level1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sudoku_StudentStub/Sudoku_StudentStub/3_sudoku_level2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sudoku_StudentStub/Sudoku_StudentStub/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sudoku_StudentStub/Sudoku_StudentStub/build/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sudoku_StudentStub/Sudoku_StudentStub/build/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sudoku_StudentStub/Sudoku_StudentStub/build/classes/net/htlgrieskirchen/pos3/sudoku/ISodukoSolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sudoku_StudentStub/Sudoku_StudentStub/build/classes/net/htlgrieskirchen/pos3/sudoku/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sudoku_StudentStub/Sudoku_StudentStub/build/classes/net/htlgrieskirchen/pos3/sudoku/SudokuSolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sudoku_StudentStub/Sudoku_StudentStub/build/test/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sudoku_StudentStub/Sudoku_StudentStub/build/test/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sudoku_StudentStub/Sudoku_StudentStub/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sudoku_StudentStub/Sudoku_StudentStub/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sudoku_StudentStub/Sudoku_StudentStub/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sudoku_StudentStub/Sudoku_StudentStub/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sudoku_StudentStub/Sudoku_StudentStub/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sudoku_StudentStub/Sudoku_StudentStub/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sudoku_StudentStub/Sudoku_StudentStub/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sudoku_StudentStub/Sudoku_StudentStub/src/net/htlgrieskirchen/pos3/sudoku/ISodukoSolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sudoku_StudentStub/Sudoku_StudentStub/src/net/htlgrieskirchen/pos3/sudoku/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sudoku_StudentStub/Sudoku_StudentStub/src/net/htlgrieskirchen/pos3/sudoku/SudokuSolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sudoku_StudentStub/Sudoku_StudentStub/sudoku_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sudoku_StudentStub/Sudoku_StudentStub/sudoku_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sudoku_StudentStub/Sudoku_StudentStub/uml.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/app/src/androidTest/java/com/example/testrechner/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/app/src/main/java/com/example/testrechner/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/app/src/main/java/com/example/testrechner/arithmeticutils/PostFixCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/app/src/main/java/com/example/testrechner/arithmeticutils/PostFixConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/app/src/test/java/com/example/testrechner/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TimeUtilProStub.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/at/smartsced/rsickinger/demo/SumAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/at/smartsced/rsickinger/demo/SumTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/target/classes/META-INF/demo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/target/classes/at/smartsced/rsickinger/demo/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/target/classes/at/smartsced/rsickinger/demo/SumAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/target/classes/at/smartsced/rsickinger/demo/SumTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/Beispielprogramme.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/CreateStreams.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/CreateStreams.java.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/CreateStreams2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/CreateStreams2.java.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/Demoprogramm.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/Stream1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/Stream1.java.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/6 D LambdasStreams (1).zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/6 D LambdasStreams/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/6 D LambdasStreams/build/built-jar.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/6 D LambdasStreams/build/classes/twelsch/htl/pos3/demo/java8/lambdasstreams/CombatType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/6 D LambdasStreams/build/classes/twelsch/htl/pos3/demo/java8/lambdasstreams/DamageType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/6 D LambdasStreams/build/classes/twelsch/htl/pos3/demo/java8/lambdasstreams/Main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/6 D LambdasStreams/build/classes/twelsch/htl/pos3/demo/java8/lambdasstreams/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/6 D LambdasStreams/build/classes/twelsch/htl/pos3/demo/java8/lambdasstreams/Printable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/6 D LambdasStreams/build/classes/twelsch/htl/pos3/demo/java8/lambdasstreams/Weapon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/6 D LambdasStreams/dist/6_D_LambdasStreams.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/6 D LambdasStreams/dist/README.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/6 D LambdasStreams/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/6 D LambdasStreams/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/6 D LambdasStreams/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/6 D LambdasStreams/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/6 D LambdasStreams/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/6 D LambdasStreams/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/6 D LambdasStreams/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/6 D LambdasStreams/src/twelsch/htl/pos3/demo/java8/lambdasstreams/CombatType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/6 D LambdasStreams/src/twelsch/htl/pos3/demo/java8/lambdasstreams/DamageType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/6 D LambdasStreams/src/twelsch/htl/pos3/demo/java8/lambdasstreams/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/6 D LambdasStreams/src/twelsch/htl/pos3/demo/java8/lambdasstreams/Printable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/6 D LambdasStreams/src/twelsch/htl/pos3/demo/java8/lambdasstreams/Weapon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/6 D LambdasStreams/weapons.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/Generics/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/Generics/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/Generics/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/Generics/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/Generics/Generics.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/Generics/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/Generics/src/main/java/Arzt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/Generics/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/Generics/src/main/java/Mensch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/Generics/src/main/java/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/Generics/src/main/java/Tier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/demo2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/demo2/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/demo2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/demo2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/demo2/demo2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/demo2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/demo2/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/demo2/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/streamDemo/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/streamDemo/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/streamDemo/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/streamDemo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/streamDemo/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/streamDemo/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/streamDemo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/streamDemo/src/main/java/demo/rsickinger/CombatType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/streamDemo/src/main/java/demo/rsickinger/DamageType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/streamDemo/src/main/java/demo/rsickinger/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/streamDemo/src/main/java/demo/rsickinger/Printable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/streamDemo/src/main/java/demo/rsickinger/Weapon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/streamDemo/streamDemo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/streamDemo/target/classes/demo/rsickinger/CombatType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/streamDemo/target/classes/demo/rsickinger/DamageType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/streamDemo/target/classes/demo/rsickinger/Main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/streamDemo/target/classes/demo/rsickinger/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/streamDemo/target/classes/demo/rsickinger/Printable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/streamDemo/target/classes/demo/rsickinger/Weapon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/streamDemo/weapons.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/.buildscript/deploy_snapshot.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/RELEASING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/checkstyle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/deploy_website.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/gradle/dependencies.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/gradle/gradle-mvn-push.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-pollexor/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-pollexor/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-pollexor/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-pollexor/lint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-pollexor/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-pollexor/src/main/java/com/squareup/picasso/pollexor/PollexorRequestTransformer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-pollexor/src/test/java/com/squareup/picasso/pollexor/PollexorRequestTransformerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/lint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/java/com/example/picasso/Data.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/java/com/example/picasso/GrayscaleTransformation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/java/com/example/picasso/PicassoSampleActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/java/com/example/picasso/PicassoSampleAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/java/com/example/picasso/SampleContactsActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/java/com/example/picasso/SampleContactsAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/java/com/example/picasso/SampleGalleryActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/java/com/example/picasso/SampleGridViewActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/java/com/example/picasso/SampleGridViewAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/java/com/example/picasso/SampleListDetailActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/java/com/example/picasso/SampleListDetailAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/java/com/example/picasso/SampleScrollListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/java/com/example/picasso/SampleWidgetProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/java/com/example/picasso/SquaredImageView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/drawable-hdpi/button_disabled.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/drawable-hdpi/button_disabled_focused.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/drawable-hdpi/button_focused.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/drawable-hdpi/button_normal.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/drawable-hdpi/button_pressed.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/drawable-hdpi/contact_picture_placeholder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/drawable-hdpi/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/drawable-hdpi/list_focused.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/drawable-hdpi/list_pressed.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/drawable-hdpi/list_selector_disabled.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/drawable-mdpi/button_disabled.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/drawable-mdpi/button_disabled_focused.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/drawable-mdpi/button_focused.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/drawable-mdpi/button_normal.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/drawable-mdpi/button_pressed.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/drawable-mdpi/contact_picture_placeholder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/drawable-mdpi/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/drawable-mdpi/list_focused.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/drawable-mdpi/list_pressed.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/drawable-mdpi/list_selector_disabled.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/drawable-nodpi/noise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/drawable-xhdpi/button_disabled.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/drawable-xhdpi/button_disabled_focused.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/drawable-xhdpi/button_focused.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/drawable-xhdpi/button_normal.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/drawable-xhdpi/button_pressed.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/drawable-xhdpi/contact_picture_placeholder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/drawable-xhdpi/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/drawable-xhdpi/list_focused.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/drawable-xhdpi/list_pressed.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/drawable-xhdpi/list_selector_disabled.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/drawable-xxhdpi/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/drawable-xxxhdpi/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/drawable/button_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/drawable/error.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/drawable/list_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/drawable/overlay_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/drawable/placeholder.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/layout/notification_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/layout/picasso_sample_activity.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/layout/picasso_sample_activity_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/layout/sample_contacts_activity.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/layout/sample_contacts_activity_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/layout/sample_gallery_activity.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/layout/sample_gridview_activity.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/layout/sample_list_detail_detail.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/layout/sample_list_detail_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/layout/sample_list_detail_list.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/layout/sample_widget.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/values-land/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/values-w500dp/integers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/values-w600dp/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/values-w600dp/integers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/values-w700dp/integers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/values/integers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-sample/src/main/res/xml/sample_widget_info.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/consumer-proguard-rules.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/lint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/main/java/com/squareup/picasso/Action.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/main/java/com/squareup/picasso/AssetRequestHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/main/java/com/squareup/picasso/BitmapHunter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/main/java/com/squareup/picasso/Cache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/main/java/com/squareup/picasso/Callback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/main/java/com/squareup/picasso/ContactsPhotoRequestHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/main/java/com/squareup/picasso/ContentStreamRequestHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/main/java/com/squareup/picasso/DeferredRequestCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/main/java/com/squareup/picasso/Dispatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/main/java/com/squareup/picasso/Downloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/main/java/com/squareup/picasso/FetchAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/main/java/com/squareup/picasso/FileRequestHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/main/java/com/squareup/picasso/GetAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/main/java/com/squareup/picasso/ImageViewAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/main/java/com/squareup/picasso/LruCache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/main/java/com/squareup/picasso/MarkableInputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/main/java/com/squareup/picasso/MediaStoreRequestHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/main/java/com/squareup/picasso/MemoryPolicy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/main/java/com/squareup/picasso/NetworkPolicy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/main/java/com/squareup/picasso/NetworkRequestHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/main/java/com/squareup/picasso/OkHttp3Downloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/main/java/com/squareup/picasso/Picasso.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/main/java/com/squareup/picasso/PicassoDrawable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/main/java/com/squareup/picasso/PicassoExecutorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/main/java/com/squareup/picasso/PicassoProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/main/java/com/squareup/picasso/RemoteViewsAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/main/java/com/squareup/picasso/Request.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/main/java/com/squareup/picasso/RequestCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/main/java/com/squareup/picasso/RequestHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/main/java/com/squareup/picasso/ResourceRequestHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/main/java/com/squareup/picasso/Stats.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/main/java/com/squareup/picasso/StatsSnapshot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/main/java/com/squareup/picasso/Target.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/main/java/com/squareup/picasso/TargetAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/main/java/com/squareup/picasso/Transformation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/main/java/com/squareup/picasso/Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/test/java/com/squareup/picasso/AssetRequestHandlerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/test/java/com/squareup/picasso/BitmapHunterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/test/java/com/squareup/picasso/DeferredRequestCreatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/test/java/com/squareup/picasso/DispatcherTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/test/java/com/squareup/picasso/ImageViewActionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/test/java/com/squareup/picasso/LruCacheTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/test/java/com/squareup/picasso/MarkableInputStreamTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/test/java/com/squareup/picasso/MediaStoreRequestHandlerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/test/java/com/squareup/picasso/MemoryPolicyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/test/java/com/squareup/picasso/NetworkRequestHandlerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/test/java/com/squareup/picasso/OkHttp3DownloaderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/test/java/com/squareup/picasso/PicassoDrawableTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/test/java/com/squareup/picasso/PicassoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/test/java/com/squareup/picasso/RemoteViewsActionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/test/java/com/squareup/picasso/RequestCreatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/test/java/com/squareup/picasso/RequestHandlerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/test/java/com/squareup/picasso/Shadows.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/test/java/com/squareup/picasso/TargetActionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/test/java/com/squareup/picasso/TestTransformation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/test/java/com/squareup/picasso/TestUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/test/java/com/squareup/picasso/UtilsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso/src/test/resources/robolectric.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/website/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/website/static/app-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/website/static/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/website/static/bootstrap-combined.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/website/static/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/website/static/debug.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/website/static/html5shiv.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/website/static/icon-github.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/website/static/icon-square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/website/static/jquery-maven-artifact.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/website/static/jquery.smooth-scroll.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/website/static/logo-square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/website/static/prettify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/website/static/sample.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../racecondemo.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reciprocal_sum_student_stub/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reciprocal_sum_student_stub/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reciprocal_sum_student_stub/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reciprocal_sum_student_stub/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reciprocal_sum_student_stub/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reciprocal_sum_student_stub/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reciprocal_sum_student_stub/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reciprocal_sum_student_stub/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reciprocal_sum_student_stub/src/net/eaustria/ReciprocalArraySum.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/at/smartsced/demos/DemoProg.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/at/smartsced/demos/DemoProgSync.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/at/smartsced/demos/counterTest/CounterThreadTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="45" lean-forward="true" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/at/smartsced/demos/counterTest/CounterThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="e#143#144#0" expanded="true" />
-                <element signature="e#175#176#0" expanded="true" />
-                <element signature="e#218#219#0" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/at/smartsced/demos/LockTest/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/at/smartsced/demos/ReentrantDemo/ReentrantDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="13" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/at/smartsced/demos/ReentrantDemo/Display.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/at/smartsced/demos/counterTest/CounterSynchronized.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="17" selection-end-column="1" />
-              <folding>
-                <element signature="e#132#133#0" expanded="true" />
-                <element signature="e#158#159#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/at/smartsced/demos/counterTest/CounterUnSynchronized.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="17" selection-end-column="1" />
-              <folding>
-                <element signature="e#120#121#0" expanded="true" />
-                <element signature="e#146#147#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/at/smartsced/demos/ThreadA.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -128,25 +652,8 @@
       </list>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/DemoProg.java" />
-        <option value="$PROJECT_DIR$/src/main/java/at/smartsced/demos/Threads.java" />
-        <option value="$PROJECT_DIR$/src/main/java/at/smartsced/demos/DemoProgSync.java" />
-        <option value="$PROJECT_DIR$/src/main/java/at/smartsced/demos/counterTest/CounterTEst.java" />
-        <option value="$PROJECT_DIR$/src/main/java/at/smartsced/demos/counterTest/CounterUnSynchronized.java" />
-        <option value="$PROJECT_DIR$/src/main/java/at/smartsced/demos/counterTest/CounterTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/at/smartsced/demos/counterTest/CounterSynchronized.java" />
-        <option value="$PROJECT_DIR$/src/main/java/at/smartsced/demos/counterTest/CounterThreadTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/at/smartsced/demos/counterTest/CounterThread.java" />
-        <option value="$PROJECT_DIR$/src/main/java/at/smartsced/demos/LockTest/TEst.java" />
-        <option value="$PROJECT_DIR$/src/main/java/at/smartsced/demos/LockTest/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/at/smartsced/demos/ReentrantDemo/ReentrantLock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/at/smartsced/demos/ReentrantDemo/ReentrantDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/at/smartsced/demos/ReentrantDemo/Display.java" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -155,72 +662,19 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="4567" />
-    <option name="y" value="367" />
-    <option name="width" value="1717" />
-    <option name="height" value="839" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="racecon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="racecondemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="racecon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="racecondemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="racecon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="racecondemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="racecon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="racecondemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="racecon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="racecondemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="racecon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="racecondemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demos" type="462c0819:PsiDirectoryNode" />
-              <item name="ReentrantDemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1pDUctzuTMRvRHHLxq84o21mYpr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572870546518" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -229,18 +683,6 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="at.smartsced.demos" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.ReentrantDemo">
     <configuration name="CounterThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -335,135 +777,8 @@
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="6170000" />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="3840" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2411953" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.32769555" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39957717" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/smartsced/demos/DemoProg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/smartsced/demos/ThreadA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/smartsced/demos/DemoProgSync.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/smartsced/demos/counterTest/CounterUnSynchronized.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="e#120#121#0" expanded="true" />
-            <element signature="e#146#147#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/smartsced/demos/counterTest/CounterSynchronized.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#158#159#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/smartsced/demos/counterTest/CounterThreadTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="45" lean-forward="true" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/smartsced/demos/counterTest/CounterThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/smartsced/demos/LockTest/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/smartsced/demos/ReentrantDemo/ReentrantDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/smartsced/demos/ReentrantDemo/Display.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="5px">
+
+    <TextView
+        android:id="@+id/noteDate"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#A6A0A0"
+        android:includeFontPadding="false"
+        android:paddingRight="10px"
+        android:text="noteDate"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/noteTitle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5px"
+        android:layout_weight="1"
+        android:background="#A6A0A0"
+        android:text="noteTitle"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+
+</LinearLayout>

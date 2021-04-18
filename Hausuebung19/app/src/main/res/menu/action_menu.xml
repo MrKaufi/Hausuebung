@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuSafe"
+        android:title="@string/safe" />
+    <item
+        android:id="@+id/menuCreate"
+        android:title="@string/new_note" />
+</menu>

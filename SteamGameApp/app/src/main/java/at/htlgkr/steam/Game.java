@@ -52,7 +52,7 @@ public class Game {
 
     public String toStringAlternative() {
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat(DATE_FORMAT);
-        return name + ";" + simpleDateFormat.format(releaseDate) + ";" + price + "\n";
+        return name + ";" + simpleDateFormat.format(releaseDate) + ";" + price;
     }
 
     @Override

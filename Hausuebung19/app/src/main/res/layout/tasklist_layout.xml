@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/taskListDate"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:background="#A6A0A0"
+        android:includeFontPadding="false"
+        android:text="taskListDate"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/taskListTitle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5px"
+        android:layout_weight="3"
+        android:background="#A6A0A0"
+        android:text="taskListTitle"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/taskListSum"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5px"
+        android:layout_weight="4.5"
+        android:background="#A6A0A0"
+        android:text="taskListSum"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+
+</LinearLayout>
