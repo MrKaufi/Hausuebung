@@ -2,9 +2,9 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/menuSafe"
-        android:title="@string/safe" />
+        android:id="@+id/menuSave"
+        android:title="@string/save" />
     <item
         android:id="@+id/menuCreate"
-        android:title="@string/new_note" />
+        android:title="@string/new_taskList" />
 </menu>

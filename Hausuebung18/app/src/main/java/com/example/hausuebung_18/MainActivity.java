@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.DialogInterface;
 import android.nfc.Tag;
 import android.os.Bundle;
@@ -43,6 +44,8 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<Note> notes;
     ListView listView;
 
+    Date date = new Date();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -69,10 +72,14 @@ public class MainActivity extends AppCompatActivity {
             case R.id.menuCreate:
                 AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
                 alertDialogBuilder.setTitle("New Note");
-
                 View mView = getLayoutInflater().inflate(R.layout.add_note_layout, null);
-
                 CalendarView calendarView = (CalendarView) mView.findViewById(R.id.calendarView);
+                calendarView.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
+                    @Override
+                    public void onSelectedDayChange(@NonNull CalendarView view, int year, int month, int dayOfMonth) {
+                        date = new Date(year,month,dayOfMonth);
+                    }
+                });
                 TimePicker timePicker = (TimePicker) mView.findViewById(R.id.timePicker);
                 EditText noteTitle = (EditText) mView.findViewById(R.id.noteTitle);
                 EditText noteDescription = (EditText) mView.findViewById(R.id.noteDescription);
@@ -81,10 +88,11 @@ public class MainActivity extends AppCompatActivity {
                 alertDialogBuilder.setPositiveButton("Submit", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
-                        if ((new Date(calendarView.getDate())) != null && noteTitle.getText() != null && noteDescription.getText() != null){
+                        if (noteTitle.getText() != null && noteDescription.getText() != null){
                             try {
-                                Date date = new Date(calendarView.getDate() + timePicker.getHour() * 3600000 + timePicker.getMinute() * 60000);
-                                notes.add(new Note(date, noteTitle.getText().toString() ,noteDescription.getText().toString()));
+                                Date fullDate = new Date(date.getTime() + timePicker.getHour() * 3600000 + timePicker.getMinute() * 60000);
+                                notes.add(new Note(fullDate, noteTitle.getText().toString() ,noteDescription.getText().toString()));
+
                             } catch (Exception e) {
                                 e.printStackTrace();
                             }
@@ -112,7 +120,6 @@ public class MainActivity extends AppCompatActivity {
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
-
                 break;
         }
         return super.onOptionsItemSelected(item);
@@ -123,10 +130,10 @@ public class MainActivity extends AppCompatActivity {
         listView.setAdapter(notesAdapter);
     }
 
-    public void loadNotesFromCSV(){
+    public void loadNotesFromCSV(){//does not work???
         try {
             ArrayList<Note> tempNotes = new ArrayList<>();
-            String tempString = "";
+            String tempString;
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(new FileInputStream(file)));
             while (bufferedReader.ready()){
                 tempString = bufferedReader.readLine();

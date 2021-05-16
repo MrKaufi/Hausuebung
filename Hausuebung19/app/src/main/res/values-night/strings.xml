@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Hausuebung19</string>
+    <string name="new_taskList">New Tasklist</string>
+    <string name="save">Save</string>
+</resources>

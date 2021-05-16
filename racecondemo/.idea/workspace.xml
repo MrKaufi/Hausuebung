@@ -2,6 +2,74 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d55e2642-39db-4d2a-9390-a2f762440f22" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung 10/build/built-jar.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung 10/build/classes/hausuebung/pkg10/Cracker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung 10/build/classes/hausuebung/pkg10/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung 10/build/classes/hausuebung/pkg10/StringUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung 10/dist/Hausuebung_10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung 2/build/classes/hausuebung/pkg2/AbstractCalculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung 2/build/classes/hausuebung/pkg2/CalculationOperation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung 2/build/classes/hausuebung/pkg2/ComplexCalculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung 2/build/classes/hausuebung/pkg2/Hausuebung2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung 2/build/classes/hausuebung/pkg2/Number.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung 2/build/classes/hausuebung/pkg2/NumberTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung 2/build/classes/hausuebung/pkg2/NumberTester.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung 2/build/classes/hausuebung/pkg2/RationalCalculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung 2/build/classes/hausuebung/pkg2/VectorCalculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung 4/build/built-jar.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung 4/build/classes/hausuebung/pkg4/CsvReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung 4/build/classes/hausuebung/pkg4/GaussCallable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung 4/build/classes/hausuebung/pkg4/Hausuebung4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung 4/build/classes/hausuebung/pkg4/JavaStreamsTester.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung 4/build/classes/hausuebung/pkg4/MyRunnableDivider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung 4/dist/Hausuebung_4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung17/app/src/main/assets/movies.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung17/app/src/main/java/com/example/hausuebung17/DetailedActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung17/app/src/main/java/com/example/hausuebung17/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung17/app/src/main/java/com/example/hausuebung17/MovieAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung17/app/src/main/res/layout/detailed_activity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung18/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/java/com/example/hausuebung_18/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/java/com/example/hausuebung_18/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/java/com/example/hausuebung_18/NotesAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/notizen_icon-playstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/res/drawable/notizen_icon_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/res/drawable/notizen_icon_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/res/layout/add_note_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/res/layout/note_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/res/layout/note_onclick_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/res/menu/action_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/res/mipmap-anydpi-v26/notizen_icon.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/res/mipmap-anydpi-v26/notizen_icon_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/res/mipmap-hdpi/notizen_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/res/mipmap-hdpi/notizen_icon_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/res/mipmap-mdpi/notizen_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/res/mipmap-mdpi/notizen_icon_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/res/mipmap-xhdpi/notizen_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/res/mipmap-xhdpi/notizen_icon_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/res/mipmap-xxhdpi/notizen_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/res/mipmap-xxhdpi/notizen_icon_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/res/mipmap-xxxhdpi/notizen_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/res/mipmap-xxxhdpi/notizen_icon_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung18/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung19/app/src/main/java/com/example/hausuebung19/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung19/app/src/main/java/com/example/hausuebung19/TaskAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung19/app/src/main/java/com/example/hausuebung19/TaskList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung19/app/src/main/java/com/example/hausuebung19/TaskListActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung19/app/src/main/java/com/example/hausuebung19/TaskListAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung19/app/src/main/res/layout/add_task_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung19/app/src/main/res/layout/add_tasklist_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung19/app/src/main/res/layout/task_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung19/app/src/main/res/layout/tasklist_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung19/app/src/main/res/layout/tasklist_onclick_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung19/app/src/main/res/menu/action_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hausuebung19/app/src/main/res/menu/tasklist_activity_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SteamGameApp/app/src/main/java/at/htlgkr/steamgameapp/SpinnerItemAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SteamGameApp/app/src/main/res/layout/spinner_item_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/racecondemo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../010_web_crawler (1).zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../010_web_crawler/build.xml" beforeDir="false" />
@@ -39,12 +107,12 @@
       <change beforePath="$PROJECT_DIR$/../11 H ProducerConsumerProblem Stub/test/net/htlgrieskirchen/pos3/pcp/ExecutorTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../12 H TimeUtilProStub/build.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../12 H TimeUtilProStub/build/built-jar.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12 H TimeUtilProStub/build/classes/.netbeans_automatic_build" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12 H TimeUtilProStub/build/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12 H TimeUtilProStub/build/classes/.netbeans_automatic_build" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung 10/build/classes/.netbeans_automatic_build" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12 H TimeUtilProStub/build/classes/.netbeans_update_resources" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung 10/build/classes/.netbeans_update_resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../12 H TimeUtilProStub/build/classes/net/htlgrieskirchen/pos3/timeutil/Main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../12 H TimeUtilProStub/build/classes/net/htlgrieskirchen/pos3/timeutil/TimeUtilPro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12 H TimeUtilProStub/build/test/classes/.netbeans_automatic_build" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12 H TimeUtilProStub/build/test/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12 H TimeUtilProStub/build/test/classes/.netbeans_automatic_build" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung 2/build/classes/.netbeans_automatic_build" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12 H TimeUtilProStub/build/test/classes/.netbeans_update_resources" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung 2/build/classes/.netbeans_update_resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../12 H TimeUtilProStub/build/test/classes/TimeUltiProTests.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../12 H TimeUtilProStub/dist/12_H_TimeUtilProStub.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../12 H TimeUtilProStub/dist/README.TXT" beforeDir="false" />
@@ -89,49 +157,49 @@
       <change beforePath="$PROJECT_DIR$/../Demoprogramme/UnitTesting/12 D UnitTesting/test/twelsch/htl/pos3/demo/java8/unittesting/MainTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../EmptyApp.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW12-master.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung18/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung18/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung18/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung18/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung18/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung18/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung18/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung18/app/proguard-rules.pro" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/androidTest/java/com/example/calculator/ExampleInstrumentedTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/AndroidManifest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/java/com/example/calculator/MainActivity.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/java/com/example/calculator/PostFixCalculator.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/java/com/example/calculator/PostFixConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/values-night/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/res/values/colors.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/res/values/themes.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/app/src/test/java/com/example/calculator/ExampleUnitTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/build.gradle" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung18/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung18/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung18/gradlew.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW12-master/HW12/settings.gradle" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW12-master/desktop.ini" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hausuebung 11.zip" beforeDir="false" />
@@ -139,28 +207,25 @@
       <change beforePath="$PROJECT_DIR$/../Hausuebung 3.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hausuebung 4.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hausuebung13.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hausuebung17/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hausuebung17/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hausuebung17/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hausuebung17/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hausuebung17/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hausuebung17/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hausuebung17/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hausuebung17/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung17/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hausuebung17/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung17/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hausuebung17/app/src/main/java/com/example/hausuebung17/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung17/app/src/main/java/com/example/hausuebung17/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hausuebung17/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung17/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hausuebung17/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung17/app/src/main/res/values/strings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hausuebung17/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung17/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hausuebung17/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung17/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ProducerConsumerProblem_StudentStub.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Reduce/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Reduce/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Reduce/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung18/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Reduce/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Reduce/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung18/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Reduce/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Reduce/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung18/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Reduce/app/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Reduce/app/build.gradle" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Reduce/app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Reduce/app/src/androidTest/java/com/example/reduce/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/app/src/androidTest/java/com/example/reduce/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/androidTest/java/com/example/hausuebung_18/ExampleInstrumentedTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Reduce/app/src/main/AndroidManifest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Reduce/app/src/main/java/com/example/reduce/MainActivity.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Reduce/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
@@ -181,17 +246,20 @@
       <change beforePath="$PROJECT_DIR$/../Reduce/app/src/main/res/values/colors.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Reduce/app/src/main/res/values/strings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Reduce/app/src/main/res/values/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Reduce/app/src/test/java/com/example/reduce/ExampleUnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Reduce/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Reduce/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/app/src/test/java/com/example/reduce/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/test/java/com/example/hausuebung_18/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung18/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reduce/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung18/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Reduce/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Reduce/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Reduce/gradlew" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Reduce/gradlew.bat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Reduce/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp 2/SteamGameApp/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp 2/SteamGameApp/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp 2/SteamGameApp/app/src/main/res/layout/game_item_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SteamGameApp/app/src/main/res/layout/game_item_layout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../SteamGameApp/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/.idea/codeStyles/Project.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/.idea/gradle.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/.idea/misc.xml" beforeDir="false" />
@@ -216,7 +284,7 @@
       <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/main/res/layout/game_item_layout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/main/res/layout/game_item_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung19/app/src/main/res/layout/activity_task_list.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
@@ -242,13 +310,17 @@
       <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/gradlew.bat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../SteamGameApp Laptop/SteamGameApp/settings.gradle" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../SteamGameApp.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SteamGameApp/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SteamGameApp/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SteamGameApp/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../SteamGameApp/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp/app/src/androidTest/java/at/htlgkr/steamgameapp/GuiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SteamGameApp/app/src/androidTest/java/at/htlgkr/steamgameapp/GuiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp/app/src/androidTest/java/at/htlgkr/steamgameapp/PojoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SteamGameApp/app/src/androidTest/java/at/htlgkr/steamgameapp/PojoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp/app/src/main/java/at/htlgkr/steam/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SteamGameApp/app/src/main/java/at/htlgkr/steam/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp/app/src/main/java/at/htlgkr/steam/SteamBackend.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SteamGameApp/app/src/main/java/at/htlgkr/steam/SteamBackend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp/app/src/main/java/at/htlgkr/steamgameapp/GameAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SteamGameApp/app/src/main/java/at/htlgkr/steamgameapp/GameAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SteamGameApp/app/src/main/java/at/htlgkr/steamgameapp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SteamGameApp/app/src/main/java/at/htlgkr/steamgameapp/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SteamGameApp/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SteamGameApp/app/src/main/res/layout/game_item_layout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SteamGameApp/app/src/main/res/layout/new_game_dialog.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SteamGameApp/app/src/main/res/layout/search_dialog.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../SteamGameApp/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../SteamGameApp/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SteamGameApp/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SteamGameApp/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../StringUtil.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../StringUtilFuerBsp1.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/.evosuite/best-tests/net/htlgrieskirchen/pos3/streams/Streams_ESTest.java" beforeDir="false" />
@@ -266,13 +338,13 @@
       <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/.evosuite/tmp_2018_11_05_12_37_08/tests/net/htlgrieskirchen/pos3/streams/Streams_ESTest_scaffolding.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/.idea/libraries/apiguardian_api_1_0_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/6 H Streams.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/build.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/build/built-jar.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/build/classes/.netbeans_automatic_build" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/build/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/build/classes/.netbeans_automatic_build" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung 4/build/classes/.netbeans_automatic_build" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/build/classes/.netbeans_update_resources" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung 4/build/classes/.netbeans_update_resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/build/classes/net/htlgrieskirchen/pos3/streams/CombatType.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/build/classes/net/htlgrieskirchen/pos3/streams/DamageType.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/build/classes/net/htlgrieskirchen/pos3/streams/Streams.class" beforeDir="false" />
@@ -281,7 +353,7 @@
       <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/build/test/classes/.netbeans_update_resources" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/build/test/classes/net/htlgrieskirchen/pos3/streams/StreamsTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/dist/6_H_Streams.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/dist/README.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/dist/README.TXT" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung 4/dist/README.TXT" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/manifest.mf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/nbproject/build-impl.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Student_Stub/6 H Streams/nbproject/genfiles.properties" beforeDir="false" />
@@ -330,7 +402,7 @@
       <change beforePath="$PROJECT_DIR$/../TestRechner/app/build.gradle" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../TestRechner/app/proguard-rules.pro" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../TestRechner/app/src/androidTest/java/com/example/testrechner/ExampleInstrumentedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestRechner/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestRechner/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung18/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TestRechner/app/src/main/java/com/example/testrechner/MainActivity.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../TestRechner/app/src/main/java/com/example/testrechner/arithmeticutils/PostFixCalculator.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../TestRechner/app/src/main/java/com/example/testrechner/arithmeticutils/PostFixConverter.java" beforeDir="false" />
@@ -394,7 +466,7 @@
       <change beforePath="$PROJECT_DIR$/../examples/demo/6 D LambdasStreams/build/classes/twelsch/htl/pos3/demo/java8/lambdasstreams/Printable.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../examples/demo/6 D LambdasStreams/build/classes/twelsch/htl/pos3/demo/java8/lambdasstreams/Weapon.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../examples/demo/6 D LambdasStreams/dist/6_D_LambdasStreams.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../examples/demo/6 D LambdasStreams/dist/README.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo/6 D LambdasStreams/dist/README.TXT" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung 10/dist/README.TXT" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../examples/demo/6 D LambdasStreams/manifest.mf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../examples/demo/6 D LambdasStreams/nbproject/build-impl.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../examples/demo/6 D LambdasStreams/nbproject/genfiles.properties" beforeDir="false" />
@@ -463,7 +535,7 @@
       <change beforePath="$PROJECT_DIR$/../picasso-2.8/gradle/dependencies.gradle" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../picasso-2.8/gradle/gradle-mvn-push.gradle" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../picasso-2.8/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../picasso-2.8/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picasso-2.8/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Hausuebung18/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../picasso-2.8/gradlew" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../picasso-2.8/gradlew.bat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../picasso-2.8/picasso-pollexor/README.md" beforeDir="false" />
@@ -630,6 +702,7 @@
       <change beforePath="$PROJECT_DIR$/../picasso-2.8/website/static/prettify.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../picasso-2.8/website/static/sample.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../racecondemo.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../reciprocal_sum_student_stub/build.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../reciprocal_sum_student_stub/manifest.mf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../reciprocal_sum_student_stub/nbproject/build-impl.xml" beforeDir="false" />
@@ -674,7 +747,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572870546518" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Hausuebung18" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -779,6 +852,12 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1618753260668">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.-1080.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1618753260668" />
   </component>
   <component name="masterDetails">
     <states>

@@ -2,31 +2,26 @@ package com.example.hausuebung19;
 
 import android.app.AlertDialog;
 import android.content.Context;
-import android.graphics.Color;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.Button;
-import android.widget.CalendarView;
 import android.widget.EditText;
-import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.TimePicker;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.List;
 
-public class NotesAdapter extends BaseAdapter {
-    Date date = new Date();
+public class TaskListAdapter extends BaseAdapter {
     List<TaskList> taskLists;
     LayoutInflater layoutInflater;
     int ListViewLayoutId;
-    DateFormat sdf = new SimpleDateFormat("dd.MM.yyyy HH:mm");
+    Context context;
 
-    public NotesAdapter(Context context, int ListViewLayoutId, List<TaskList> taskLists) {
+    public TaskListAdapter(Context context, int ListViewLayoutId, List<TaskList> taskLists) {
+        this.context = context;
         this.taskLists = taskLists;
         this.ListViewLayoutId = ListViewLayoutId;
         this.layoutInflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
@@ -51,41 +46,51 @@ public class NotesAdapter extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         final TaskList taskList = taskLists.get(position);
         View listItem = (convertView == null) ?layoutInflater.inflate(this.ListViewLayoutId, null) : convertView;
-        ((TextView) listItem.findViewById(R.id.taskListDate)).setText(sdf.format(taskList.getDate()));
-        if (date.after(taskList.getDate())){//I don´t know why this does not work??????????
-            listItem.setBackgroundColor(Color.parseColor("#C62727"));
-        }
-        ((TextView) listItem.findViewById(R.id.taskTitle)).setText(taskList.getTaskListTitle());
+
+        ((TextView) listItem.findViewById(R.id.taskListTitle)).setText(taskList.getTaskListTitle());
+        ((TextView) listItem.findViewById(R.id.taskListSum)).setText(String.valueOf(taskList.getTaskListSum()));
+
         listItem.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent taskListActivity = new Intent(context, TaskListActivity.class);
+                taskListActivity.putExtra("title", taskList.getTaskListTitle());
+                context.startActivity(taskListActivity);
+            }
+        });
+        listItem.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
                 AlertDialog.Builder dialog = new AlertDialog.Builder(v.getContext());
-                View mView = layoutInflater.inflate(R.layout.task_onclick_layout, null);
+                View mView = layoutInflater.inflate(R.layout.tasklist_onclick_layout, null);
 
                 Button edit = mView.findViewById(R.id.edit);
                 Button delete = mView.findViewById(R.id.delete);
-                Button details = mView.findViewById(R.id.details);
 
                 dialog.setView(mView);
-
                 edit.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         AlertDialog.Builder dialog = new AlertDialog.Builder(v.getContext());
-                        dialog.setTitle("New TaskList");
-                        View mView = layoutInflater.inflate(R.layout.add_task_layout, null);
+                        dialog.setTitle("Edit Tasklist");
+                        View mView = layoutInflater.inflate(R.layout.add_tasklist_layout, null);
 
-                        CalendarView calendarView = mView.findViewById(R.id.calendarView);
-                        calendarView.setDate(taskList.getDate().getTime());
+                        final EditText taskListTitle =  mView.findViewById(R.id.taskListTitle);
+                        taskListTitle.setText(taskList.getTaskListTitle());
 
-                        TimePicker timePicker = mView.findViewById(R.id.timePicker);
-                        timePicker.setHour(taskList.getDate().getHours());
-                        timePicker.setHour(taskList.getDate().getMinutes());
-
-                        EditText noteTitle =  mView.findViewById(R.id.taskTitle);
-                        noteTitle.setText(taskList.getTaskListTitle());
-                        EditText noteDescription =mView.findViewById(R.id.taskDescription);
-                        noteDescription.setText(taskList.getNoteText());
+                        dialog.setPositiveButton("Submit", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+                                taskList.setTaskListTitle(taskListTitle.getText().toString());
+                                dialogInterface.dismiss();
+                            }
+                        });
+                        dialog.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.dismiss();
+                            }
+                        });
 
                         dialog.setView(mView);
                         dialog.show();
@@ -98,26 +103,9 @@ public class NotesAdapter extends BaseAdapter {
                         notifyDataSetChanged();
                     }
                 });
-                details.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        AlertDialog.Builder dialog = new AlertDialog.Builder(v.getContext());
-                        dialog.setTitle("Details");
-
-                        LinearLayout linearLayout = new LinearLayout(v.getContext());
-
-                        TextView details = new TextView(v.getContext());
-                        details.setX(90);
-                        details.setText(taskList.getNoteText());
-
-                        linearLayout.addView(details);
-                        dialog.setView(linearLayout);
-
-                        dialog.show();
-                    }
-                });
-
                 dialog.show();
+
+                return true;
             }
         });
         return listItem;

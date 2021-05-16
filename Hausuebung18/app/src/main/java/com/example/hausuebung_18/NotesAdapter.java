@@ -52,7 +52,7 @@ public class NotesAdapter extends BaseAdapter {
         Note note = notes.get(position);
         View listItem = (convertView == null) ?layoutInflater.inflate(this.ListViewLayoutId, null) : convertView;
         ((TextView) listItem.findViewById(R.id.noteDate)).setText(sdf.format(note.getDate()));
-        if (date.after(note.getDate())){
+        if (date.after(note.getDate())){//I don´t know why this does not work??????????
             listItem.setBackgroundColor(Color.parseColor("#C62727"));
         }
         ((TextView) listItem.findViewById(R.id.noteTitle)).setText(note.getNoteTitle());
@@ -84,7 +84,7 @@ public class NotesAdapter extends BaseAdapter {
 
                         EditText noteTitle =  mView.findViewById(R.id.noteTitle);
                         noteTitle.setText(note.getNoteTitle());
-                        EditText noteDescription =mView.findViewById(R.id.noteDescription);
+                        EditText noteDescription = mView.findViewById(R.id.noteDescription);
                         noteDescription.setText(note.getNoteText());
 
                         dialog.setView(mView);
@@ -95,6 +95,7 @@ public class NotesAdapter extends BaseAdapter {
                     @Override
                     public void onClick(View v) {
                         notes.remove(note);
+                        notifyDataSetChanged();
                     }
                 });
                 details.setOnClickListener(new View.OnClickListener() {
