@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/addButton"
+        android:id="@+id/addTaskButton"
         android:icon="@android:drawable/ic_menu_add"
-        android:title="Item"
+        android:title="button"
         app:showAsAction="ifRoom" />
 </menu>

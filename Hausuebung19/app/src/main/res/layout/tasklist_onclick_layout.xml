@@ -2,18 +2,25 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/altBackground"
     android:orientation="vertical">
 
     <Button
         android:id="@+id/edit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Edit" />
+        android:background="@color/altBackground"
+        android:text="Edit"
+        android:textColor="@color/mainText"
+        android:textSize="18sp" />
 
     <Button
         android:id="@+id/delete"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Delete" />
+        android:background="@color/altBackground"
+        android:text="Delete"
+        android:textColor="@color/mainText"
+        android:textSize="18sp" />
 
 </LinearLayout>

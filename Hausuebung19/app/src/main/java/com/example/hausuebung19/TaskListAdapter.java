@@ -15,26 +15,26 @@ import android.widget.TextView;
 import java.util.List;
 
 public class TaskListAdapter extends BaseAdapter {
-    List<TaskList> taskLists;
+    List<Tasklist> Tasklists;
     LayoutInflater layoutInflater;
     int ListViewLayoutId;
     Context context;
 
-    public TaskListAdapter(Context context, int ListViewLayoutId, List<TaskList> taskLists) {
+    public TaskListAdapter(Context context, int ListViewLayoutId, List<Tasklist> Tasklists) {
         this.context = context;
-        this.taskLists = taskLists;
+        this.Tasklists = Tasklists;
         this.ListViewLayoutId = ListViewLayoutId;
         this.layoutInflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
     }
 
     @Override
     public int getCount() {
-        return taskLists.size();
+        return Tasklists.size();
     }
 
     @Override
     public Object getItem(int position) {
-        return taskLists.get(position);
+        return Tasklists.get(position);
     }
 
     @Override
@@ -44,7 +44,7 @@ public class TaskListAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        final TaskList taskList = taskLists.get(position);
+        final Tasklist taskList = Tasklists.get(position);
         View listItem = (convertView == null) ?layoutInflater.inflate(this.ListViewLayoutId, null) : convertView;
 
         ((TextView) listItem.findViewById(R.id.taskListTitle)).setText(taskList.getTaskListTitle());
@@ -55,13 +55,15 @@ public class TaskListAdapter extends BaseAdapter {
             public void onClick(View v) {
                 Intent taskListActivity = new Intent(context, TaskListActivity.class);
                 taskListActivity.putExtra("title", taskList.getTaskListTitle());
+                taskListActivity.putExtra("tasks", taskList.tasks);
+                taskListActivity.putExtra("id", position);
                 context.startActivity(taskListActivity);
             }
         });
         listItem.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View v) {
-                AlertDialog.Builder dialog = new AlertDialog.Builder(v.getContext());
+                AlertDialog.Builder dialog = new AlertDialog.Builder(v.getContext(), R.style.MyDialogTheme);
                 View mView = layoutInflater.inflate(R.layout.tasklist_onclick_layout, null);
 
                 Button edit = mView.findViewById(R.id.edit);
@@ -71,11 +73,12 @@ public class TaskListAdapter extends BaseAdapter {
                 edit.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        AlertDialog.Builder dialog = new AlertDialog.Builder(v.getContext());
+                        AlertDialog.Builder dialog = new AlertDialog.Builder(v.getContext(), R.style.MyDialogTheme);
                         dialog.setTitle("Edit Tasklist");
                         View mView = layoutInflater.inflate(R.layout.add_tasklist_layout, null);
 
                         final EditText taskListTitle =  mView.findViewById(R.id.taskListTitle);
+                        taskListTitle.setX(80);
                         taskListTitle.setText(taskList.getTaskListTitle());
 
                         dialog.setPositiveButton("Submit", new DialogInterface.OnClickListener() {
@@ -99,8 +102,9 @@ public class TaskListAdapter extends BaseAdapter {
                 delete.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        taskLists.remove(taskList);
+                        Tasklists.remove(taskList);
                         notifyDataSetChanged();
+                        MainActivity.mainActivity.saveTaskLists();
                     }
                 });
                 dialog.show();

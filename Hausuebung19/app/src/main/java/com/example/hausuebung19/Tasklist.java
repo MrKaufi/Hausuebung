@@ -2,11 +2,11 @@ package com.example.hausuebung19;
 
 import java.util.ArrayList;
 
-public class TaskList {
+public class Tasklist {
     public String taskListTitle;
     public ArrayList<Task> tasks = new ArrayList<>();
 
-    public TaskList(String taskListTitle) {
+    public Tasklist(String taskListTitle) {
         this.taskListTitle = taskListTitle;
     }
 
@@ -30,12 +30,15 @@ public class TaskList {
         tasks.remove(task);
     }
 
+    public ArrayList<Task> getTasks() { return tasks; }
+
     @Override
     public String toString() {
         String tasksString = "";
         for (int i = 0; i < tasks.size(); i++) {
-            tasksString += tasks.get(i).toString() + ";";
+            tasksString += tasks.get(i).toString();
+            if (i != tasks.size()) tasksString += ";";
         }
-        return "Tasklist:" + taskListTitle + ";" + tasksString;
+        return taskListTitle + ";" + tasksString;
     }
 }

@@ -1,33 +1,36 @@
 package com.example.hausuebung19;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
+import java.io.Serializable;
 import java.util.Date;
 
-public class Task {
-    String TaskTitle;
-    Date TaskDate;
+public class Task implements Serializable {
+    String taskTitle;
+    Date taskDate;
     boolean done = false;
 
-
-    public Task(String taskTitle, Date taskDate) {
-        TaskTitle = taskTitle;
-        TaskDate = taskDate;
+    public Task(String taskTitle, Date taskDate, boolean done) {
+        this.taskTitle = taskTitle;
+        this.taskDate = taskDate;
         this.done = done;
     }
 
     public String getTaskTitle() {
-        return TaskTitle;
+        return taskTitle;
     }
 
     public void setTaskTitle(String taskTitle) {
-        TaskTitle = taskTitle;
+        this.taskTitle = taskTitle;
     }
 
     public Date getTaskDate() {
-        return TaskDate;
+        return taskDate;
     }
 
     public void setTaskDate(Date taskDate) {
-        TaskDate = taskDate;
+        this.taskDate = taskDate;
     }
 
     public boolean isDone() {
@@ -40,6 +43,7 @@ public class Task {
 
     @Override
     public String toString() {
-        return getTaskTitle() + ";" + getTaskDate();
+        if (done) return getTaskTitle() + ";" + getTaskDate().toString() + ";" + "true";
+        return  getTaskTitle() + ";" + getTaskDate() + ";" + "false";
     }
 }

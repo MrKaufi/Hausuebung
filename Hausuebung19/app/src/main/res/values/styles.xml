@@ -7,4 +7,14 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColor">@color/mainText</item>
+        <item name="android:background">@color/altBackground</item>
+        <item name="android:colorBackground">@color/altBackground</item>
+    </style>
+
+    <style name="PreferenceTheme" parent="AppTheme">
+        <item name="android:textColor">@color/mainText</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
 </resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:background="@drawable/layout_corner"
+        android:defaultValue="false"
+        android:disableDependentsState="false"
+        android:icon="@android:drawable/ic_menu_view"
+        android:key="darkThemeKey"
+        android:title="Dark theme" />
+</PreferenceScreen>

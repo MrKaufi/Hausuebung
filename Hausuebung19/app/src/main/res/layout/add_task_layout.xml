@@ -2,26 +2,45 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:background="@color/altBackground"
+    android:isScrollContainer="false"
+    android:orientation="vertical"
+    android:overScrollMode="ifContentScrolls">
 
 
     <CalendarView
         android:id="@+id/calendarView"
         android:layout_width="match_parent"
-        android:layout_height="296dp" />
+        android:layout_height="wrap_content"
+        android:background="@color/altBackground"
+        android:focusedMonthDateColor="@color/mainText"
+        android:selectedWeekBackgroundColor="@color/mainText"
+        android:unfocusedMonthDateColor="@color/mainText"
+        android:weekNumberColor="@color/mainText"
+        android:weekSeparatorLineColor="@color/mainText"
+        android:textColor="@color/mainText"/>
 
     <TimePicker
         android:id="@+id/timePicker"
         android:layout_width="match_parent"
         android:layout_height="133dp"
+        android:amPmTextColor="@color/mainText"
+        android:background="@color/altBackground"
+        android:numbersBackgroundColor="@color/mainText"
+        android:numbersInnerTextColor="@color/mainText"
+        android:numbersSelectorColor="@color/mainText"
+        android:numbersTextColor="@color/mainText"
+        android:textColor="@color/mainText"
         android:timePickerMode="spinner" />
 
     <EditText
         android:id="@+id/taskTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/altBackground"
         android:editable="true"
-        android:hint="Note Title"
-        android:inputType="text" />
+        android:hint="Task Title"
+        android:inputType="text"
+        android:textColor="@color/mainText" />
 
 </LinearLayout>
